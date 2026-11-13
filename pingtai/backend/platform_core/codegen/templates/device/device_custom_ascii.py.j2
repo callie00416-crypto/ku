@@ -1,0 +1,411 @@
+"""
+自定义ASCII协议设备模板
+
+【协议特点】
+- ASCII编码
+- 固定指令格式: PREFIX,CMD,VALUE,SUFFIX
+- 简单的响应解析
+- 无寄存器概念
+"""
+from typing import Dict, Any, Optional
+import logging
+
+from shared.drivers.base.base_device import BaseDevice
+
+
+logger = logging.getLogger(__name__)
+
+
+class {{ class_name }}(BaseDevice):
+    """{{ description }}
+    
+    【设备信息】
+    - 厂商: {{ manufacturer }}
+    - 型号: {{ model }}
+    - 协议: {{ protocol.type | upper }}
+    - 通信: {{ communication.type | upper }}
+    - 通道数: {{ channels }}
+    
+    【协议特点】
+    - 自定义ASCII协议
+    - 指令格式: {{ custom_protocol_config.command_prefix }}<CMD>{{ custom_protocol_config.command_suffix }}
+    - 响应格式: ASCII字符串
+    
+    【使用示例】
+    >>> pa = {{ class_name }}(driver_id='power_amplifier', protocol=protocol)
+    >>> pa.connect()
+    >>> pa.output_on()
+    >>> pa.set_gain(20)
+    >>> pa.output_off()
+    """
+    
+    def __init__(self, driver_id: str, protocol, **kwargs):
+        """
+        Args:
+            driver_id: 驱动ID
+            protocol: 协议对象
+            **kwargs: 其他参数
+        """
+        super().__init__(driver_id, protocol, **kwargs)
+        
+        # 设备信息
+        self.device_info = {
+            'manufacturer': '{{ manufacturer }}',
+            'model': '{{ model }}',
+            'serial_number': '{{ serial_number | default('N/A') }}',
+            'firmware_version': '{{ firmware_version | default('N/A') }}',
+            'protocol': '{{ protocol.type }}',
+            'communication': '{{ communication.type }}',
+            'channels': {{ channels }}
+        }
+        
+        # 协议配置
+        self._command_prefix = '{{ custom_protocol_config.command_prefix }}'
+        self._command_suffix = '{{ custom_protocol_config.command_suffix }}'
+        self._response_success = '{{ custom_protocol_config.response_success }}'
+        self._response_error = '{{ custom_protocol_config.response_error }}'
+        self._response_over_range = '{{ custom_protocol_config.response_over_range }}'
+        
+        # 命令映射
+        self._commands = {{ custom_protocol_config.commands | tojson }}
+        
+        # 参数范围
+        self._parameters = {{ parameters | tojson }}
+        
+        # 当前状态
+        self._state = {
+            'output_enabled': False,
+            'input_resistance': {{ parameters.input_resistance.default }},
+            'output_resistance': {{ parameters.output_resistance.default }},
+            'gain': {{ parameters.gain.default }}
+        }
+        
+        logger.info(f"{{ class_name }}初始化完成: {self.device_info}")
+    
+    def _build_command(self, command_key: str, value: str = None) -> str:
+        """构建命令字符串
+        
+        Args:
+            command_key: 命令键
+            value: 命令值
+            
+        Returns:
+            完整的命令字符串
+        """
+        if command_key not in self._commands:
+            raise ValueError(f"未知命令: {command_key}")
+        
+        command_template = self._commands[command_key]['set']
+        
+        if value is not None:
+            command = command_template.format(value=value)
+        else:
+            command = command_template
+        
+        full_command = f"{self._command_prefix}{command}{self._command_suffix}"
+        logger.debug(f"构建命令: {full_command}")
+        
+        return full_command
+    
+    def _send_command(self, command: str) -> bool:
+        """发送命令并检查响应
+        
+        Args:
+            command: 命令字符串
+            
+        Returns:
+            是否成功
+        """
+        try:
+            logger.debug(f"发送命令: {command}")
+            
+            # 发送命令
+            response = self.protocol.send_command(command)
+            
+            # 检查响应
+            if response == self._response_success:
+                logger.debug(f"命令执行成功: {command}")
+                return True
+            elif response == self._response_over_range:
+                logger.error(f"参数越界: {command}")
+                return False
+            elif response == self._response_error:
+                logger.error(f"命令错误: {command}")
+                return False
+            else:
+                logger.warning(f"未知响应: {response}")
+                return False
+                
+        except Exception as e:
+            logger.error(f"发送命令失败: {e}")
+            return False
+    
+    {% for method in methods %}
+    def {{ method.name }}(self{% for param in method.parameters %}, {{ param.name }}: {{ param.type }}{% endfor %}) -> {{ method.return_type }}:
+        """{{ method.description }}
+        {% for param in method.parameters %}
+        Args:
+            {{ param.name }}: {{ param.description }}
+        {% endfor %}
+        
+        Returns:
+            {{ method.return_type }}: 是否成功
+        """
+        try:
+            {% if method.name == 'output_on' %}
+            # 打开输出
+            command = self._build_command('output_on')
+            success = self._send_command(command)
+            
+            if success:
+                self._state['output_enabled'] = True
+                logger.info("输出已打开")
+            
+            return success
+            
+            {% elif method.name == 'output_off' %}
+            # 关闭输出
+            command = self._build_command('output_off')
+            success = self._send_command(command)
+            
+            if success:
+                self._state['output_enabled'] = False
+                logger.info("输出已关闭")
+            
+            return success
+            
+            {% elif method.name == 'save_settings' %}
+            # 保存设置
+            command = self._build_command('save_settings')
+            success = self._send_command(command)
+            
+            if success:
+                logger.info("设置已保存")
+            
+            return success
+            
+            {% elif method.name == 'set_input_resistance' %}
+            # 参数验证
+            valid_values = [50.0, 1000.0]
+            if resistance not in valid_values:
+                logger.error(f"无效的输入电阻值: {resistance}, 有效值: {valid_values}")
+                return False
+            
+            # 构建命令值
+            value_mapping = self._commands['input_resistance']['value_mapping']
+            value_str = value_mapping.get(str(int(resistance)))
+            
+            if not value_str:
+                logger.error(f"无法映射电阻值: {resistance}")
+                return False
+            
+            # 发送命令
+            command = self._build_command('input_resistance', value_str)
+            success = self._send_command(command)
+            
+            if success:
+                self._state['input_resistance'] = resistance
+                logger.info(f"输入电阻已设置: {resistance}Ω")
+            
+            return success
+            
+            {% elif method.name == 'set_output_resistance' %}
+            # 参数验证
+            valid_values = [1.5, 50.0]
+            if resistance not in valid_values:
+                logger.error(f"无效的输出电阻值: {resistance}, 有效值: {valid_values}")
+                return False
+            
+            # 构建命令值
+            value_mapping = self._commands['output_resistance']['value_mapping']
+            # 尝试多种键格式
+            value_str = value_mapping.get(str(resistance))
+            if not value_str:
+                value_str = value_mapping.get(str(int(resistance)))
+            if not value_str:
+                value_str = value_mapping.get(f"{resistance:.1f}")
+            
+            if not value_str:
+                logger.error(f"无法映射电阻值: {resistance}")
+                return False
+            
+            # 发送命令
+            command = self._build_command('output_resistance', value_str)
+            success = self._send_command(command)
+            
+            if success:
+                self._state['output_resistance'] = resistance
+                logger.info(f"输出电阻已设置: {resistance}Ω")
+            
+            return success
+            
+            {% elif method.name == 'set_gain' %}
+            # 参数验证
+            min_gain = {{ parameters.gain.min }}
+            max_gain = {{ parameters.gain.max }}
+            step = {{ parameters.gain.step }}
+            
+            if gain_db < min_gain or gain_db > max_gain:
+                logger.error(f"增益值超出范围: {gain_db}, 范围: {min_gain}-{max_gain}dB")
+                return False
+            
+            if gain_db % step != 0:
+                logger.error(f"增益值不符合步进要求: {gain_db}, 步进: {step}dB")
+                return False
+            
+            # 构建命令值
+            value_mapping = self._commands['gain']['value_mapping']
+            value_str = value_mapping.get(str(gain_db))
+            
+            if not value_str:
+                logger.error(f"无法映射增益值: {gain_db}")
+                return False
+            
+            # 发送命令
+            command = self._build_command('gain', value_str)
+            success = self._send_command(command)
+            
+            if success:
+                self._state['gain'] = gain_db
+                logger.info(f"增益已设置: {gain_db}dB")
+            
+            return success
+            
+            {% elif method.name == 'get_status' %}
+            # 返回当前状态
+            status = {
+                'output_enabled': self._state['output_enabled'],
+                'input_resistance': self._state['input_resistance'],
+                'output_resistance': self._state['output_resistance'],
+                'gain': self._state['gain'],
+                'device_info': self.device_info
+            }
+            
+            logger.debug(f"设备状态: {status}")
+            return status
+            
+            {% endif %}
+            
+        except Exception as e:
+            logger.error(f"{{ method.name }}失败: {e}")
+            return False
+    
+    {% endfor %}
+    
+    def connect(self) -> bool:
+        """连接设备
+        
+        Returns:
+            是否成功
+        """
+        try:
+            logger.info(f"正在连接{{ class_name }}...")
+            
+            # 连接通信层
+            if hasattr(self.protocol, 'connect'):
+                if not self.protocol.connect():
+                    logger.error("通信层连接失败")
+                    return False
+            
+            logger.info("{{ class_name }}连接成功")
+            return True
+            
+        except Exception as e:
+            logger.error(f"连接失败: {e}")
+            return False
+    
+    def disconnect(self):
+        """断开设备"""
+        try:
+            logger.info("正在断开{{ class_name }}...")
+            
+            # 关闭输出
+            if self._state['output_enabled']:
+                self.output_off()
+            
+            # 断开通信层
+            if hasattr(self.protocol, 'disconnect'):
+                self.protocol.disconnect()
+            
+            logger.info("{{ class_name }}已断开")
+            
+        except Exception as e:
+            logger.error(f"断开失败: {e}")
+    
+    def reset(self) -> bool:
+        """重置设备
+        
+        Returns:
+            是否成功
+        """
+        try:
+            logger.info("正在重置{{ class_name }}...")
+            
+            # 关闭输出
+            self.output_off()
+            
+            # 重置参数
+            self._state = {
+                'output_enabled': False,
+                'input_resistance': {{ parameters.input_resistance.default }},
+                'output_resistance': {{ parameters.output_resistance.default }},
+                'gain': {{ parameters.gain.default }}
+            }
+            
+            logger.info("{{ class_name }}已重置")
+            return True
+            
+        except Exception as e:
+            logger.error(f"重置失败: {e}")
+            return False
+    
+    def read_data(self) -> Dict[str, Any]:
+        """读取设备核心数据
+        
+        Returns:
+            设备数据字典
+        """
+        try:
+            return self.get_status()
+        except Exception as e:
+            logger.error(f"读取数据失败: {e}")
+            return {}
+    
+    def write_data(self, data: Dict[str, Any]) -> bool:
+        """写入设备数据
+        
+        Args:
+            data: 要写入的数据字典
+            
+        Returns:
+            是否成功
+        """
+        try:
+            success = True
+            
+            # 根据数据类型调用相应方法
+            if 'gain' in data:
+                if not self.set_gain(data['gain']):
+                    success = False
+            
+            if 'input_resistance' in data:
+                if not self.set_input_resistance(data['input_resistance']):
+                    success = False
+            
+            if 'output_resistance' in data:
+                if not self.set_output_resistance(data['output_resistance']):
+                    success = False
+            
+            if 'output_enabled' in data:
+                if data['output_enabled']:
+                    if not self.output_on():
+                        success = False
+                else:
+                    if not self.output_off():
+                        success = False
+            
+            return success
+            
+        except Exception as e:
+            logger.error(f"写入数据失败: {e}")
+            return False

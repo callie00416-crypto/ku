@@ -1,0 +1,321 @@
+"""
+设备生成模板 - Device Template
+
+【模板说明】
+用于生成工业设备驱动代码
+"""
+from shared.drivers.base.base_device import BaseDevice
+from typing import Dict, Any, Optional
+import logging
+
+logger = logging.getLogger(__name__)
+
+
+class {{ class_name }}(BaseDevice):
+    """{{ spec.description | default(device_name + ' 设备驱动') }}
+    
+    【设备信息】
+    - 制造商: {{ spec.manufacturer | default('Unknown') }}
+    - 型号: {{ spec.model | default('Unknown') }}
+    - 通信协议: {{ spec.protocol | default('unknown') }}
+    - 通信方式: {{ spec.communication | default('unknown') }}
+    
+    【架构集成】
+    - 继承 BaseDevice 基类
+    - 支持平台设备生命周期管理
+    - 集成平台事件系统
+    """
+    
+    # 设备寄存器地址定义
+    {% if spec.registers %}
+    REGISTERS = {
+        {% for register_name, register_value in spec.registers.items() %}
+        '{{ register_name }}': {{ register_value }},
+        {% endfor %}
+    }
+    {% endif %}
+    
+    def __init__(self, driver_id: str = '{{ device_name }}', protocol=None, 
+                 platform_device=None, **kwargs):
+        """
+        Args:
+            driver_id: 驱动ID
+            protocol: 通信协议实例
+            platform_device: 平台设备实例
+            **kwargs: 额外参数
+        """
+        super().__init__(driver_id, protocol, **kwargs)
+        self.protocol = protocol
+        self.platform_device = platform_device
+        
+        # 设备特定状态
+        self._device_state = {}
+        
+        # 设备信息
+        self._device_info = {
+            'manufacturer': '{{ spec.manufacturer | default('Unknown') }}',
+            'model': '{{ spec.model | default('Unknown') }}',
+            'protocol': '{{ spec.protocol | default('unknown') }}',
+            'communication': '{{ spec.communication | default('unknown') }}'
+        }
+        
+        # 设备参数
+        {% if spec.parameters %}
+        self._device_params = {
+            {% for param_name, param_value in spec.parameters.items() %}
+            '{{ param_name }}': {{ param_value }},
+            {% endfor %}
+        }
+        {% else %}
+        self._device_params = {}
+        {% endif %}
+    
+    def connect(self) -> bool:
+        """连接设备
+        
+        Returns:
+            是否连接成功
+        """
+        try:
+            self._device_status = "connecting"
+            
+            # 连接通信层
+            if not self.protocol.is_connected:
+                if not self.protocol.connect():
+                    self._device_status = "fault"
+                    if self.platform_device:
+                        self.platform_device.disconnect()
+                    return False
+            
+            # 初始化设备
+            self._initialize_device()
+            
+            self._is_connected = True
+            self._device_status = "connected"
+            
+            # 更新平台设备状态
+            if self.platform_device:
+                self.platform_device.connect()
+            
+            logger.info(f"设备连接成功: {self.driver_id}")
+            return True
+            
+        except Exception as e:
+            logger.error(f"设备连接失败: {e}")
+            self._device_status = "fault"
+            self.increment_error()
+            
+            if self.platform_device:
+                self.platform_device.disconnect()
+            
+            return False
+    
+    def disconnect(self):
+        """断开设备连接"""
+        self._is_connected = False
+        self._device_status = "disconnected"
+        
+        if self.protocol:
+            self.protocol.disconnect()
+        
+        if self.platform_device:
+            self.platform_device.disconnect()
+        
+        logger.info(f"设备已断开: {self.driver_id}")
+    
+    def read_data(self) -> Dict[str, Any]:
+        """读取设备数据
+        
+        Returns:
+            设备数据字典
+        """
+        if not self.is_connected:
+            raise ConnectionError("设备未连接")
+        
+        try:
+            data = {}
+            
+            {% if spec.read_registers %}
+            # 读取寄存器数据
+            {% for register_name in spec.read_registers %}
+            data['{{ register_name }}'] = self._read_register('{{ register_name }}')
+            {% endfor %}
+            {% endif %}
+            
+            # 记录操作
+            if self.platform_device:
+                self.platform_device.record_operation(success=True)
+            
+            return data
+            
+        except Exception as e:
+            logger.error(f"读取数据失败: {e}")
+            if self.platform_device:
+                self.platform_device.record_operation(success=False)
+            raise
+    
+    def write_data(self, data: Dict[str, Any]) -> bool:
+        """写入设备数据
+        
+        Args:
+            data: 要写入的数据
+            
+        Returns:
+            是否写入成功
+        """
+        if not self.is_connected:
+            raise ConnectionError("设备未连接")
+        
+        try:
+            {% if spec.write_registers %}
+            # 写入寄存器数据
+            {% for register_name in spec.write_registers %}
+            if '{{ register_name }}' in data:
+                self._write_register('{{ register_name }}', data['{{ register_name }}'])
+            {% endfor %}
+            {% endif %}
+            
+            # 记录操作
+            if self.platform_device:
+                self.platform_device.record_operation(success=True)
+            
+            return True
+            
+        except Exception as e:
+            logger.error(f"写入数据失败: {e}")
+            if self.platform_device:
+                self.platform_device.record_operation(success=False)
+            return False
+    
+    def reset(self):
+        """重置设备"""
+        if not self.is_connected:
+            raise ConnectionError("设备未连接")
+        
+        try:
+            logger.info(f"设备重置: {self.driver_id}")
+            
+            {% if spec.reset_command %}
+            # 发送重置命令
+            self._send_command('{{ spec.reset_command }}')
+            {% endif %}
+            
+        except Exception as e:
+            logger.error(f"设备重置失败: {e}")
+            raise
+    
+    def health_check(self) -> Dict[str, Any]:
+        """设备健康检查
+        
+        Returns:
+            健康状态信息
+        """
+        base = super().health_check()
+        
+        try:
+            if self.is_connected:
+                # 获取设备状态
+                device_status = self._get_device_status()
+                
+                base.update({
+                    'device_status': device_status,
+                    'device_info': self._device_info,
+                    'device_params': self._device_params
+                })
+        except Exception as e:
+            base['health_status'] = 'error'
+            base['error_message'] = str(e)
+        
+        return base
+    
+    def _initialize_device(self):
+        """初始化设备"""
+        try:
+            {% if spec.init_commands %}
+            # 发送初始化命令
+            {% for command in spec.init_commands %}
+            self._send_command('{{ command }}')
+            {% endfor %}
+            {% endif %}
+            
+            logger.debug(f"设备初始化完成: {self.driver_id}")
+            
+        except Exception as e:
+            logger.error(f"设备初始化失败: {e}")
+            raise
+    
+    def _get_device_status(self) -> Dict[str, Any]:
+        """获取设备状态
+        
+        Returns:
+            设备状态字典
+        """
+        status = {
+            'connected': self.is_connected,
+            'status': self._device_status
+        }
+        
+        {% if spec.status_registers %}
+        # 读取状态寄存器
+        {% for register_name in spec.status_registers %}
+        status['{{ register_name }}'] = self._read_register('{{ register_name }}')
+        {% endfor %}
+        {% endif %}
+        
+        return status
+    
+    {% if spec.registers %}
+    def _read_register(self, register_name: str) -> Any:
+        """读取寄存器
+        
+        Args:
+            register_name: 寄存器名称
+            
+        Returns:
+            寄存器值
+        """
+        if register_name not in self.REGISTERS:
+            raise ValueError(f"未知寄存器: {register_name}")
+        
+        address = self.REGISTERS[register_name]
+        return self.protocol.read_register(address)
+    
+    def _write_register(self, register_name: str, value: Any):
+        """写入寄存器
+        
+        Args:
+            register_name: 寄存器名称
+            value: 要写入的值
+        """
+        if register_name not in self.REGISTERS:
+            raise ValueError(f"未知寄存器: {register_name}")
+        
+        address = self.REGISTERS[register_name]
+        self.protocol.write_register(address, value)
+    {% endif %}
+    
+    {% if spec.commands %}
+    def _send_command(self, command: str):
+        """发送命令
+        
+        Args:
+            command: 命令字符串
+        """
+        self.protocol.send_command(command)
+    {% endif %}
+    
+    {% for method in spec.methods | default([]) %}
+    def {{ method.name }}(self{% for param in method.parameters | default([]) %}, {{ param.name }}: {{ param.type | default('Any') }}{% if param.default %} = {{ param.default }}{% endif %}{% endfor %}) -> {{ method.return_type | default('Any') }}:
+        """{{ method.description | default('Generated method') }}
+        
+        {% for param in method.parameters | default([]) %}
+        Args:
+            {{ param.name }}: {{ param.description | default('Parameter') }}
+        {% endfor %}
+        
+        Returns:
+            {{ method.return_description | default('Result') }}
+        """
+        # TODO: 实现 {{ method.name }} 方法
+        pass
+    {% endfor %}

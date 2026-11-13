@@ -1,0 +1,1164 @@
+[2026-05-26 16:43:21,041][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 16:53:04,806][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\runtime\__init__.py changed, reloading.
+[2026-05-26 16:53:05,751][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 16:53:12,644][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\runtime\__init__.py changed, reloading.
+[2026-05-26 16:53:13,498][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:21:58,926][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:22:01,828][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\application\settings.py changed, reloading.
+[2026-05-26 17:22:02,913][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:22:24,611][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\encoder_test\views\__init__.py changed, reloading.
+[2026-05-26 17:22:25,515][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:22:29,720][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:22:53,668][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\encoder_test\views\__init__.py changed, reloading.
+[2026-05-26 17:22:53,715][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\encoder_test\views\__init__.py changed, reloading.
+[2026-05-26 17:22:54,714][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:22:54,720][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:22:59,479][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:23:19,147][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\encoder_test\core\test_engine\__init__.py changed, reloading.
+[2026-05-26 17:23:19,171][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\encoder_test\core\test_engine\__init__.py changed, reloading.
+[2026-05-26 17:23:19,216][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\encoder_test\core\test_engine\__init__.py changed, reloading.
+[2026-05-26 17:23:20,348][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:23:20,371][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:23:20,412][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:23:25,010][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:26:08,630][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\conf\env.py changed, reloading.
+[2026-05-26 17:26:09,081][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\conf\env.py changed, reloading.
+[2026-05-26 17:26:09,330][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\conf\env.py changed, reloading.
+[2026-05-26 17:26:09,362][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\conf\env.py changed, reloading.
+[2026-05-26 17:26:10,092][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:26:10,578][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:26:10,840][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:26:10,882][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:26:13,273][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\conf\env.py changed, reloading.
+[2026-05-26 17:26:13,954][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\conf\env.py changed, reloading.
+[2026-05-26 17:26:14,282][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\conf\env.py changed, reloading.
+[2026-05-26 17:26:14,287][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\conf\env.py changed, reloading.
+[2026-05-26 17:26:14,755][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:26:15,584][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:26:15,898][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:26:15,960][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:26:18,609][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:26:52,259][django.request.log_response():241] [WARNING] Not Found: /api/
+[2026-05-26 17:26:52,259][django.server.log_message():212] [WARNING] "GET /api/ HTTP/1.1" 404 4475
+[2026-05-26 17:26:59,326][django.server.log_message():212] [INFO] "GET /api/system/menu/ HTTP/1.1" 200 64
+[2026-05-26 17:27:13,873][django.request.log_response():241] [ERROR] Internal Server Error: /api/system/menu/
+Traceback (most recent call last):
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\rest_framework\renderers.py", line 728, in render
+    ret = template.render(context, request=renderer_context['request'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\library.py", line 130, in compile_func
+    args, kwargs = parse_bits(
+                   ^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\library.py", line 362, in parse_bits
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'optional_logout' did not receive value(s) for the argument(s): 'csrf_token'
+[2026-05-26 17:27:13,878][django.server.log_message():212] [ERROR] "GET /api/system/menu/ HTTP/1.1" 500 412608
+[2026-05-26 17:27:14,033][django.request.log_response():241] [WARNING] Not Found: /favicon.ico
+[2026-05-26 17:27:14,034][django.server.log_message():212] [WARNING] "GET /favicon.ico HTTP/1.1" 404 4496
+[2026-05-26 17:27:20,158][django.server.log_message():212] [INFO] "GET / HTTP/1.1" 200 2251
+[2026-05-26 17:27:20,181][django.server.log_message():212] [INFO] "GET /static/drf-yasg/style.css HTTP/1.1" 200 1120
+[2026-05-26 17:27:20,191][django.server.log_message():212] [INFO] "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2096
+[2026-05-26 17:27:20,191][django.server.log_message():212] [INFO] "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15355
+[2026-05-26 17:27:20,192][django.server.log_message():212] [INFO] "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56937
+[2026-05-26 17:27:20,193][django.server.log_message():212] [INFO] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145208
+[2026-05-26 17:27:20,196][django.server.log_message():212] [INFO] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322865
+[2026-05-26 17:27:20,202][django.server.log_message():212] [INFO] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046585
+[2026-05-26 17:27:20,322][django.server.log_message():212] [INFO] "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+[2026-05-26 17:27:20,849][django.server.log_message():212] [INFO] "GET /?format=openapi HTTP/1.1" 200 453997
+[2026-05-26 17:39:11,321][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:39:36,258][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:41:11,593][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:41:26,605][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:43:56,507][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:44:18,250][django.server.log_message():212] [INFO] "GET /api/system/menu/ HTTP/1.1" 200 64
+[2026-05-26 17:44:22,474][django.request.log_response():241] [ERROR] Internal Server Error: /api/system/menu/
+Traceback (most recent call last):
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\rest_framework\renderers.py", line 728, in render
+    ret = template.render(context, request=renderer_context['request'])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\library.py", line 130, in compile_func
+    args, kwargs = parse_bits(
+                   ^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\.venv\Lib\site-packages\django\template\library.py", line 362, in parse_bits
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'optional_logout' did not receive value(s) for the argument(s): 'csrf_token'
+[2026-05-26 17:44:22,478][django.server.log_message():212] [ERROR] "GET /api/system/menu/ HTTP/1.1" 500 426385
+[2026-05-26 17:44:29,549][django.request.log_response():241] [WARNING] Not Found: /api/
+[2026-05-26 17:44:29,550][django.server.log_message():212] [WARNING] "GET /api/ HTTP/1.1" 404 4475
+[2026-05-26 17:44:36,712][django.server.log_message():212] [INFO] "GET / HTTP/1.1" 200 2251
+[2026-05-26 17:44:37,343][django.server.log_message():212] [INFO] "GET /?format=openapi HTTP/1.1" 200 453997
+[2026-05-26 17:49:52,772][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\application\settings.py changed, reloading.
+[2026-05-26 17:49:54,444][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:51:04,504][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:51:37,890][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:51:42,711][django.server.log_message():212] [INFO] "GET / HTTP/1.1" 200 2251
+[2026-05-26 17:51:43,362][django.server.log_message():212] [INFO] "GET /?format=openapi HTTP/1.1" 200 453997
+[2026-05-26 17:54:08,902][django.server.log_message():212] [INFO] "OPTIONS /api/captcha/ HTTP/1.1" 200 0
+[2026-05-26 17:54:08,903][django.server.log_message():212] [INFO] "OPTIONS /api/init/settings/ HTTP/1.1" 200 0
+[2026-05-26 17:54:08,914][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-26 17:54:08,989][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 4888
+[2026-05-26 17:54:19,545][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\application\settings.py changed, reloading.
+[2026-05-26 17:54:20,890][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:54:41,688][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-26 17:54:45,011][django.server.log_message():212] [INFO] "GET / HTTP/1.1" 200 2251
+[2026-05-26 17:54:45,698][django.server.log_message():212] [INFO] "GET /?format=openapi HTTP/1.1" 200 453997
+[2026-05-26 17:55:01,749][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-26 17:55:01,782][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 4476
+[2026-05-26 17:55:07,071][django.server.log_message():212] [INFO] "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2026-05-26 17:55:07,157][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 70
+[2026-05-26 17:55:07,186][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 4872
+[2026-05-26 17:55:12,637][dvadmin.utils.backends.authenticate():23] [INFO] admin 正在使用本地登录...
+[2026-05-26 17:55:13,179][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 110
+[2026-05-26 17:55:13,211][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 5520
+[2026-05-26 17:55:18,376][dvadmin.utils.backends.authenticate():23] [INFO] admin 正在使用本地登录...
+[2026-05-26 17:55:18,903][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 110
+[2026-05-26 17:55:18,929][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 5600
+[2026-05-26 17:56:02,931][dvadmin.utils.backends.authenticate():23] [INFO] admin 正在使用本地登录...
+[2026-05-26 17:56:03,466][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 110
+[2026-05-26 17:56:03,502][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 5500
+[2026-05-27 09:21:20,043][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-27 09:21:30,653][django.server.log_message():212] [INFO] "GET / HTTP/1.1" 200 2251
+[2026-05-27 09:21:31,439][django.server.log_message():212] [INFO] "GET /?format=openapi HTTP/1.1" 200 453997
+[2026-05-27 09:21:36,157][django.server.log_message():212] [INFO] "OPTIONS /api/captcha/ HTTP/1.1" 200 0
+[2026-05-27 09:21:36,164][django.server.log_message():212] [INFO] "OPTIONS /api/init/settings/ HTTP/1.1" 200 0
+[2026-05-27 09:21:36,220][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-27 09:21:36,323][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 5140
+[2026-05-27 09:21:41,486][django.server.log_message():212] [INFO] "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2026-05-27 09:21:41,534][dvadmin.utils.backends.authenticate():23] [INFO] admin 正在使用本地登录...
+[2026-05-27 09:21:42,099][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 110
+[2026-05-27 09:21:42,143][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 5612
+[2026-05-27 09:22:14,922][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 70
+[2026-05-27 09:22:14,956][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 3856
+[2026-05-27 09:22:18,409][dvadmin.utils.backends.authenticate():23] [INFO] admin 正在使用本地登录...
+[2026-05-27 09:22:18,958][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 93
+[2026-05-27 09:22:18,999][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 6629
+[2026-05-27 09:22:50,593][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-27 09:22:50,613][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 6353
+[2026-05-27 09:22:58,852][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 93
+[2026-05-27 09:22:58,888][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 4381
+[2026-05-27 09:23:19,993][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 93
+[2026-05-27 09:23:20,029][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 5133
+[2026-05-27 09:24:24,547][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-27 09:24:24,562][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 4421
+[2026-05-27 09:24:31,267][dvadmin.utils.backends.authenticate():23] [INFO] admin 正在使用本地登录...
+[2026-05-27 09:24:31,809][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 93
+[2026-05-27 09:24:31,848][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 5589
+[2026-05-27 09:24:44,102][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc3NDI3OTg0LCJpYXQiOjE3NzczNDE1ODQsImp0aSI6ImJiN2JjYmNjMDZkMjRhNTBiMDdjZDBmOGE3ZGViZjJiIiwidXNlcl9pZCI6NH0.sSlpUYippjcLEt6xMjRGSeJJskIa6vH_dTd2Z5b6Qjs/
+[2026-05-27 09:24:44,103][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc3NDI3OTg0LCJpYXQiOjE3NzczNDE1ODQsImp0aSI6ImJiN2JjYmNjMDZkMjRhNTBiMDdjZDBmOGE3ZGViZjJiIiwidXNlcl9pZCI6NH0.sSlpUYippjcLEt6xMjRGSeJJskIa6vH_dTd2Z5b6Qjs/ HTTP/1.1" 404 5159
+[2026-05-27 09:24:44,210][django.server.log_message():212] [INFO] "OPTIONS /api/captcha/ HTTP/1.1" 200 0
+[2026-05-27 09:24:44,211][django.server.log_message():212] [INFO] "OPTIONS /api/init/settings/ HTTP/1.1" 200 0
+[2026-05-27 09:24:44,228][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-27 09:24:44,249][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 4577
+[2026-05-27 09:24:49,148][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc3NDI3OTg0LCJpYXQiOjE3NzczNDE1ODQsImp0aSI6ImJiN2JjYmNjMDZkMjRhNTBiMDdjZDBmOGE3ZGViZjJiIiwidXNlcl9pZCI6NH0.sSlpUYippjcLEt6xMjRGSeJJskIa6vH_dTd2Z5b6Qjs/
+[2026-05-27 09:24:49,148][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc3NDI3OTg0LCJpYXQiOjE3NzczNDE1ODQsImp0aSI6ImJiN2JjYmNjMDZkMjRhNTBiMDdjZDBmOGE3ZGViZjJiIiwidXNlcl9pZCI6NH0.sSlpUYippjcLEt6xMjRGSeJJskIa6vH_dTd2Z5b6Qjs/ HTTP/1.1" 404 5159
+[2026-05-27 09:24:54,165][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc3NDI3OTg0LCJpYXQiOjE3NzczNDE1ODQsImp0aSI6ImJiN2JjYmNjMDZkMjRhNTBiMDdjZDBmOGE3ZGViZjJiIiwidXNlcl9pZCI6NH0.sSlpUYippjcLEt6xMjRGSeJJskIa6vH_dTd2Z5b6Qjs/
+[2026-05-27 09:24:54,166][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc3NDI3OTg0LCJpYXQiOjE3NzczNDE1ODQsImp0aSI6ImJiN2JjYmNjMDZkMjRhNTBiMDdjZDBmOGE3ZGViZjJiIiwidXNlcl9pZCI6NH0.sSlpUYippjcLEt6xMjRGSeJJskIa6vH_dTd2Z5b6Qjs/ HTTP/1.1" 404 5159
+[2026-05-27 09:24:58,417][django.server.log_message():212] [INFO] "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2026-05-27 09:24:58,517][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 93
+[2026-05-27 09:24:58,555][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 4397
+[2026-05-27 09:24:59,180][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc3NDI3OTg0LCJpYXQiOjE3NzczNDE1ODQsImp0aSI6ImJiN2JjYmNjMDZkMjRhNTBiMDdjZDBmOGE3ZGViZjJiIiwidXNlcl9pZCI6NH0.sSlpUYippjcLEt6xMjRGSeJJskIa6vH_dTd2Z5b6Qjs/
+[2026-05-27 09:24:59,180][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc3NDI3OTg0LCJpYXQiOjE3NzczNDE1ODQsImp0aSI6ImJiN2JjYmNjMDZkMjRhNTBiMDdjZDBmOGE3ZGViZjJiIiwidXNlcl9pZCI6NH0.sSlpUYippjcLEt6xMjRGSeJJskIa6vH_dTd2Z5b6Qjs/ HTTP/1.1" 404 5159
+[2026-05-27 09:26:57,275][dvadmin.utils.backends.authenticate():23] [INFO] root 正在使用本地登录...
+[2026-05-27 09:26:57,814][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 110
+[2026-05-27 09:26:57,851][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 5089
+[2026-05-27 09:28:14,610][dvadmin.utils.backends.authenticate():23] [INFO] root 正在使用本地登录...
+[2026-05-27 09:28:15,354][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 665
+[2026-05-27 09:28:15,466][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 4521
+[2026-05-27 09:28:15,808][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-27 09:29:58,609][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxNjk1LCJpYXQiOjE3Nzk4NDUyOTUsImp0aSI6IjlhMjJhNTk2YmNmMTRhZDY5MzMyZWMzYjZjODM2OTRjIiwidXNlcl9pZCI6N30.TmYEPLpigr103r3oUje8KOv8RQ2uuNWfqixwcr9BP5Q/
+[2026-05-27 09:29:58,610][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxNjk1LCJpYXQiOjE3Nzk4NDUyOTUsImp0aSI6IjlhMjJhNTk2YmNmMTRhZDY5MzMyZWMzYjZjODM2OTRjIiwidXNlcl9pZCI6N30.TmYEPLpigr103r3oUje8KOv8RQ2uuNWfqixwcr9BP5Q/ HTTP/1.1" 404 5159
+[2026-05-27 09:29:58,800][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-27 09:29:58,810][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 4645
+[2026-05-27 09:30:03,696][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxNjk1LCJpYXQiOjE3Nzk4NDUyOTUsImp0aSI6IjlhMjJhNTk2YmNmMTRhZDY5MzMyZWMzYjZjODM2OTRjIiwidXNlcl9pZCI6N30.TmYEPLpigr103r3oUje8KOv8RQ2uuNWfqixwcr9BP5Q/
+[2026-05-27 09:30:03,699][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxNjk1LCJpYXQiOjE3Nzk4NDUyOTUsImp0aSI6IjlhMjJhNTk2YmNmMTRhZDY5MzMyZWMzYjZjODM2OTRjIiwidXNlcl9pZCI6N30.TmYEPLpigr103r3oUje8KOv8RQ2uuNWfqixwcr9BP5Q/ HTTP/1.1" 404 5159
+[2026-05-27 09:30:08,733][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxNjk1LCJpYXQiOjE3Nzk4NDUyOTUsImp0aSI6IjlhMjJhNTk2YmNmMTRhZDY5MzMyZWMzYjZjODM2OTRjIiwidXNlcl9pZCI6N30.TmYEPLpigr103r3oUje8KOv8RQ2uuNWfqixwcr9BP5Q/
+[2026-05-27 09:30:08,734][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxNjk1LCJpYXQiOjE3Nzk4NDUyOTUsImp0aSI6IjlhMjJhNTk2YmNmMTRhZDY5MzMyZWMzYjZjODM2OTRjIiwidXNlcl9pZCI6N30.TmYEPLpigr103r3oUje8KOv8RQ2uuNWfqixwcr9BP5Q/ HTTP/1.1" 404 5159
+[2026-05-27 09:30:13,760][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxNjk1LCJpYXQiOjE3Nzk4NDUyOTUsImp0aSI6IjlhMjJhNTk2YmNmMTRhZDY5MzMyZWMzYjZjODM2OTRjIiwidXNlcl9pZCI6N30.TmYEPLpigr103r3oUje8KOv8RQ2uuNWfqixwcr9BP5Q/
+[2026-05-27 09:30:13,761][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxNjk1LCJpYXQiOjE3Nzk4NDUyOTUsImp0aSI6IjlhMjJhNTk2YmNmMTRhZDY5MzMyZWMzYjZjODM2OTRjIiwidXNlcl9pZCI6N30.TmYEPLpigr103r3oUje8KOv8RQ2uuNWfqixwcr9BP5Q/ HTTP/1.1" 404 5159
+[2026-05-27 09:30:13,942][dvadmin.utils.backends.authenticate():23] [INFO] root 正在使用本地登录...
+[2026-05-27 09:30:14,572][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 665
+[2026-05-27 09:30:14,641][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 5145
+[2026-05-27 09:30:14,648][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-27 09:30:26,682][django.server.log_message():212] [INFO] "OPTIONS /api/system/user/login_change_password/ HTTP/1.1" 200 0
+[2026-05-27 09:30:27,000][django.server.log_message():212] [INFO] "POST /api/system/user/login_change_password/ HTTP/1.1" 200 51
+[2026-05-27 09:30:27,010][django.server.log_message():212] [INFO] "OPTIONS /api/system/user/user_info/ HTTP/1.1" 200 0
+[2026-05-27 09:30:27,010][django.server.log_message():212] [INFO] "OPTIONS /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 0
+[2026-05-27 09:30:27,013][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-05-27 09:30:27,035][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 328
+[2026-05-27 09:30:27,060][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 328
+[2026-05-27 09:30:27,072][django.server.log_message():212] [INFO] "OPTIONS /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 0
+[2026-05-27 09:30:27,074][django.server.log_message():212] [INFO] "OPTIONS /api/system/dept/all_dept/ HTTP/1.1" 200 0
+[2026-05-27 09:30:27,082][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-05-27 09:30:27,087][django.server.log_message():212] [INFO] "OPTIONS /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 0
+[2026-05-27 09:30:27,095][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-27 09:30:27,099][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-05-27 09:30:27,112][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 4317
+[2026-05-27 09:30:27,119][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-27 09:30:27,119][django.server.log_message():212] [INFO] "GET /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 1599
+[2026-05-27 09:30:27,130][django.server.log_message():212] [INFO] "GET /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 8302
+[2026-05-27 09:30:27,130][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-05-27 09:30:27,143][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-27 09:30:27,147][django.server.log_message():212] [INFO] "GET /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 1599
+[2026-05-27 09:30:27,151][django.server.log_message():212] [INFO] "GET /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 8302
+[2026-05-27 09:30:27,168][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-05-27 09:30:27,847][django.server.log_message():212] [INFO] "OPTIONS /api/system/message_center/get_self_receive/ HTTP/1.1" 200 0
+[2026-05-27 09:30:27,883][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_self_receive/ HTTP/1.1" 200 110
+[2026-05-27 09:30:28,267][django.request.log_response():241] [WARNING] Not Found: /src/assets/img/headerImage.png
+[2026-05-27 09:30:28,269][django.server.log_message():212] [WARNING] "GET /src/assets/img/headerImage.png HTTP/1.1" 404 4553
+[2026-05-27 09:30:28,286][django.server.log_message():212] [INFO] "GET /sse/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY HTTP/1.1" 200 72
+[2026-05-27 09:35:43,009][django.server.log_message():212] [INFO] "OPTIONS /api/system/message_center/get_newest_msg/ HTTP/1.1" 200 0
+[2026-05-27 09:35:43,068][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_newest_msg/ HTTP/1.1" 200 50
+[2026-05-27 09:35:44,272][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_newest_msg/ HTTP/1.1" 200 50
+[2026-05-27 09:35:48,968][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-27 09:35:48,969][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5159
+[2026-05-27 09:35:53,990][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-27 09:35:53,992][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5159
+[2026-05-27 09:35:54,809][django.server.log_message():212] [INFO] "OPTIONS /api/system/download_center/?page=1&limit=20 HTTP/1.1" 200 0
+[2026-05-27 09:35:54,840][django.server.log_message():212] [INFO] "GET /api/system/download_center/?page=1&limit=20 HTTP/1.1" 200 110
+[2026-05-27 09:35:56,390][django.server.log_message():212] [INFO] "OPTIONS / HTTP/1.1" 200 0
+[2026-05-27 09:35:56,393][django.server.log_message():212] [INFO] "OPTIONS /api/system/api_white_list/?page=1&limit=20 HTTP/1.1" 200 0
+[2026-05-27 09:35:56,441][django.server.log_message():212] [INFO] "GET /api/system/api_white_list/?page=1&limit=20 HTTP/1.1" 200 378
+[2026-05-27 09:35:57,087][django.server.log_message():212] [INFO] "OPTIONS /api/system/message_center/?page=1&limit=20 HTTP/1.1" 200 0
+[2026-05-27 09:35:57,154][django.server.log_message():212] [INFO] "GET /api/system/message_center/?page=1&limit=20 HTTP/1.1" 200 110
+[2026-05-27 09:35:57,630][django.server.log_message():212] [INFO] "OPTIONS /api/system/role/?page=1&limit=20 HTTP/1.1" 200 0
+[2026-05-27 09:35:57,630][django.server.log_message():212] [INFO] "OPTIONS /api/system/user/?limit=999 HTTP/1.1" 200 0
+[2026-05-27 09:35:57,858][django.server.log_message():212] [INFO] "GET /api/system/role/?page=1&limit=20 HTTP/1.1" 200 757
+[2026-05-27 09:35:57,859][django.server.log_message():212] [INFO] "GET / HTTP/1.1" 200 453997
+[2026-05-27 09:35:57,881][django.server.log_message():212] [INFO] "GET /api/system/user/?limit=999 HTTP/1.1" 200 1150
+[2026-05-27 09:35:58,149][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-05-27 09:35:59,015][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-27 09:35:59,016][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5159
+[2026-05-27 09:35:59,357][django.server.log_message():212] [INFO] "OPTIONS /api/system/role/ HTTP/1.1" 200 0
+[2026-05-27 09:35:59,362][django.server.log_message():212] [INFO] "OPTIONS /api/system/user/?page=1&limit=20 HTTP/1.1" 200 0
+[2026-05-27 09:35:59,377][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-05-27 09:35:59,397][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-05-27 09:35:59,398][django.server.log_message():212] [INFO] "GET /api/system/role/ HTTP/1.1" 200 757
+[2026-05-27 09:35:59,420][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-05-27 09:35:59,422][django.server.log_message():212] [INFO] "GET /api/system/user/?page=1&limit=20 HTTP/1.1" 200 1149
+[2026-05-27 09:35:59,436][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-05-27 09:36:04,029][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-27 09:36:04,029][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5159
+[2026-05-27 09:36:14,289][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_self_receive/ HTTP/1.1" 200 110
+[2026-05-27 09:36:39,921][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_newest_msg/ HTTP/1.1" 200 50
+[2026-05-27 09:36:48,743][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_self_receive/ HTTP/1.1" 200 110
+[2026-05-27 09:36:48,749][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 328
+[2026-05-27 09:36:48,813][django.request.log_response():241] [WARNING] Not Found: /src/assets/img/headerImage.png
+[2026-05-27 09:36:48,814][django.server.log_message():212] [WARNING] "GET /src/assets/img/headerImage.png HTTP/1.1" 404 4553
+[2026-05-27 09:37:28,340][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_self_receive/ HTTP/1.1" 200 110
+[2026-05-27 09:48:22,117][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\application\settings.py changed, reloading.
+[2026-05-27 11:07:00,465][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-27 11:07:52,908][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-27 11:08:13,590][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\runtime\engine_integration.py changed, reloading.
+[2026-05-27 11:08:14,282][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\runtime\engine_integration.py changed, reloading.
+[2026-05-27 11:13:59,964][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-27 11:14:13,250][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\runtime\engine_integration.py changed, reloading.
+[2026-05-27 11:14:13,951][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-27 11:14:29,117][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\runtime\engine_integration.py changed, reloading.
+[2026-05-27 11:33:26,097][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-27 11:33:44,206][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\application\settings.py changed, reloading.
+[2026-05-27 11:34:01,785][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-27 11:34:20,628][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\runtime\apps.py changed, reloading.
+[2026-05-27 11:34:21,475][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-27 11:34:25,518][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-27 11:34:47,704][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\runtime\apps.py changed, reloading.
+[2026-05-27 11:34:48,594][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\runtime\apps.py changed, reloading.
+[2026-05-27 11:35:46,174][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-27 11:36:40,205][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-27 11:37:08,439][django.server.log_message():212] [INFO] "GET / HTTP/1.1" 200 2251
+[2026-05-27 11:37:08,459][django.server.log_message():212] [INFO] "GET /static/drf-yasg/style.css HTTP/1.1" 200 1120
+[2026-05-27 11:37:08,460][django.server.log_message():212] [INFO] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145208
+[2026-05-27 11:37:08,466][django.server.log_message():212] [INFO] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322865
+[2026-05-27 11:37:08,469][django.server.log_message():212] [INFO] "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2096
+[2026-05-27 11:37:08,470][django.server.log_message():212] [INFO] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046585
+[2026-05-27 11:37:08,473][django.server.log_message():212] [INFO] "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56937
+[2026-05-27 11:37:08,473][django.server.log_message():212] [INFO] "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15355
+[2026-05-27 11:37:08,592][django.server.log_message():212] [INFO] "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+[2026-05-27 11:37:09,064][django.server.log_message():212] [INFO] "GET /?format=openapi HTTP/1.1" 200 373795
+[2026-05-27 13:26:19,108][django.server.log_message():212] [INFO] "GET / HTTP/1.1" 200 2251
+[2026-05-27 13:26:19,768][django.server.log_message():212] [INFO] "GET /?format=openapi HTTP/1.1" 200 373795
+[2026-05-27 13:32:59,370][django.server.log_message():212] [INFO] "OPTIONS /api/system/user/user_info/ HTTP/1.1" 200 0
+[2026-05-27 13:32:59,807][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 328
+[2026-05-27 13:32:59,813][django.server.log_message():212] [INFO] "OPTIONS /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 0
+[2026-05-27 13:32:59,817][django.server.log_message():212] [INFO] "OPTIONS /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 0
+[2026-05-27 13:32:59,817][django.server.log_message():212] [INFO] "OPTIONS /api/system/dept/all_dept/ HTTP/1.1" 200 0
+[2026-05-27 13:32:59,819][django.server.log_message():212] [INFO] "OPTIONS /api/init/settings/ HTTP/1.1" 200 0
+[2026-05-27 13:32:59,819][django.server.log_message():212] [INFO] "OPTIONS /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 0
+[2026-05-27 13:32:59,821][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-05-27 13:32:59,840][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-27 13:32:59,852][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-05-27 13:32:59,852][django.server.log_message():212] [INFO] "GET /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 8302
+[2026-05-27 13:32:59,852][django.server.log_message():212] [INFO] "GET /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 1599
+[2026-05-27 13:33:00,042][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-27 13:33:00,044][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5040
+[2026-05-27 13:33:00,045][django.server.handle_error():81] [INFO] - Broken pipe from ('127.0.0.1', 62488)
+[2026-05-27 13:33:00,190][django.server.log_message():212] [INFO] "OPTIONS /api/system/message_center/get_self_receive/ HTTP/1.1" 200 0
+[2026-05-27 13:33:00,221][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_self_receive/ HTTP/1.1" 200 110
+[2026-05-27 13:33:00,403][django.request.log_response():241] [WARNING] Not Found: /src/assets/img/headerImage.png
+[2026-05-27 13:33:00,404][django.server.log_message():212] [WARNING] "GET /src/assets/img/headerImage.png HTTP/1.1" 404 4434
+[2026-05-27 13:33:00,421][django.server.log_message():212] [INFO] "GET /sse/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY HTTP/1.1" 200 72
+[2026-05-27 13:33:05,060][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-27 13:33:05,060][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5040
+[2026-05-27 13:33:10,071][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-27 13:33:10,072][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5040
+[2026-05-27 13:33:15,080][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-27 13:33:15,081][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5040
+[2026-05-27 13:37:03,897][django.server.log_message():212] [INFO] "OPTIONS /api/system/message_center/get_newest_msg/ HTTP/1.1" 200 0
+[2026-05-27 13:37:03,915][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_newest_msg/ HTTP/1.1" 200 50
+[2026-05-27 15:32:43,782][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 328
+[2026-05-27 15:32:43,802][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-05-27 15:32:43,820][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-27 15:32:43,820][django.server.log_message():212] [INFO] "GET /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 1599
+[2026-05-27 15:32:43,830][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-05-27 15:32:43,830][django.server.log_message():212] [INFO] "GET /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 8302
+[2026-05-27 15:32:43,921][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-27 15:32:43,922][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5040
+[2026-05-27 15:32:43,998][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_self_receive/ HTTP/1.1" 200 110
+[2026-05-27 15:32:44,148][django.request.log_response():241] [WARNING] Not Found: /src/assets/img/headerImage.png
+[2026-05-27 15:32:44,149][django.server.log_message():212] [WARNING] "GET /src/assets/img/headerImage.png HTTP/1.1" 404 4434
+[2026-05-27 15:32:44,174][django.server.log_message():212] [INFO] "GET /sse/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY HTTP/1.1" 200 72
+[2026-05-27 15:32:48,941][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-27 15:32:48,941][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5040
+[2026-05-27 15:32:53,965][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-27 15:32:53,965][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5040
+[2026-05-27 15:32:58,980][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-27 15:32:58,980][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5040
+[2026-05-27 15:37:21,683][django.server.log_message():212] [INFO] "OPTIONS /api/system/user/user_info/ HTTP/1.1" 200 0
+[2026-05-27 15:37:21,728][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 328
+[2026-05-27 15:37:21,740][django.server.log_message():212] [INFO] "OPTIONS /api/init/settings/ HTTP/1.1" 200 0
+[2026-05-27 15:37:21,740][django.server.log_message():212] [INFO] "OPTIONS /api/system/dept/all_dept/ HTTP/1.1" 200 0
+[2026-05-27 15:37:21,740][django.server.log_message():212] [INFO] "OPTIONS /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 0
+[2026-05-27 15:37:21,740][django.server.log_message():212] [INFO] "OPTIONS /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 0
+[2026-05-27 15:37:21,740][django.server.log_message():212] [INFO] "OPTIONS /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 0
+[2026-05-27 15:37:21,749][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-05-27 15:37:21,764][django.server.log_message():212] [INFO] "GET /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 1599
+[2026-05-27 15:37:21,767][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-27 15:37:21,773][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-05-27 15:37:21,773][django.server.log_message():212] [INFO] "GET /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 8302
+[2026-05-27 15:37:21,846][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-27 15:37:21,847][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5040
+[2026-05-27 15:37:21,884][django.server.log_message():212] [INFO] "OPTIONS /api/system/message_center/get_self_receive/ HTTP/1.1" 200 0
+[2026-05-27 15:37:21,914][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_self_receive/ HTTP/1.1" 200 110
+[2026-05-27 15:37:21,971][django.request.log_response():241] [WARNING] Not Found: /src/assets/img/headerImage.png
+[2026-05-27 15:37:21,972][django.server.log_message():212] [WARNING] "GET /src/assets/img/headerImage.png HTTP/1.1" 404 4434
+[2026-05-27 15:37:21,985][django.server.log_message():212] [INFO] "GET /sse/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY HTTP/1.1" 200 72
+[2026-05-27 15:37:26,867][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-27 15:37:26,868][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5040
+[2026-05-27 15:37:30,302][django.server.log_message():212] [INFO] "OPTIONS /api/system/operation_log/?page=1&limit=20 HTTP/1.1" 200 0
+[2026-05-27 15:37:30,375][django.server.log_message():212] [INFO] "GET /api/system/operation_log/?page=1&limit=20 HTTP/1.1" 200 79444
+[2026-05-27 15:37:31,882][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-27 15:37:31,883][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5040
+[2026-05-27 15:37:36,909][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-27 15:37:36,909][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5040
+[2026-05-27 15:37:39,057][django.server.log_message():212] [INFO] "GET /api/system/operation_log/?page=1&limit=20 HTTP/1.1" 200 79444
+[2026-05-27 15:37:39,931][django.server.log_message():212] [INFO] "GET /api/system/operation_log/?page=1&limit=20 HTTP/1.1" 200 79444
+[2026-05-27 15:37:40,424][django.server.log_message():212] [INFO] "GET /api/system/operation_log/?page=1&limit=20 HTTP/1.1" 200 79444
+[2026-05-27 15:37:40,703][django.server.log_message():212] [INFO] "GET /api/system/operation_log/?page=1&limit=20 HTTP/1.1" 200 79444
+[2026-05-27 15:37:40,892][django.server.log_message():212] [INFO] "GET /api/system/operation_log/?page=1&limit=20 HTTP/1.1" 200 79444
+[2026-05-27 15:37:41,093][django.server.log_message():212] [INFO] "GET /api/system/operation_log/?page=1&limit=20 HTTP/1.1" 200 79444
+[2026-05-27 15:37:41,310][django.server.log_message():212] [INFO] "GET /api/system/operation_log/?page=1&limit=20 HTTP/1.1" 200 79444
+[2026-05-27 15:37:41,524][django.server.log_message():212] [INFO] "GET /api/system/operation_log/?page=1&limit=20 HTTP/1.1" 200 79444
+[2026-05-27 15:37:41,768][django.server.log_message():212] [INFO] "GET /api/system/operation_log/?page=1&limit=20 HTTP/1.1" 200 79444
+[2026-05-27 15:37:41,984][django.server.log_message():212] [INFO] "GET /api/system/operation_log/?page=1&limit=20 HTTP/1.1" 200 79444
+[2026-05-27 15:37:42,241][django.server.log_message():212] [INFO] "GET /api/system/operation_log/?page=1&limit=20 HTTP/1.1" 200 79444
+[2026-05-27 15:37:47,602][django.server.log_message():212] [INFO] "GET /api/system/operation_log/?page=1&limit=20 HTTP/1.1" 200 79444
+[2026-05-27 15:37:48,184][django.server.log_message():212] [INFO] "GET /api/system/operation_log/?page=1&limit=20 HTTP/1.1" 200 79444
+[2026-05-27 15:37:48,384][django.server.log_message():212] [INFO] "GET /api/system/operation_log/?page=1&limit=20 HTTP/1.1" 200 79444
+[2026-05-27 15:37:51,664][django.server.log_message():212] [INFO] "OPTIONS /api/dvadmin_celery/task/job_list/?limit=999 HTTP/1.1" 200 0
+[2026-05-27 15:37:51,668][django.server.log_message():212] [INFO] "OPTIONS /api/dvadmin_celery/task/?page=1&limit=20 HTTP/1.1" 200 0
+[2026-05-27 15:37:51,676][django.request.log_response():241] [WARNING] Not Found: /api/dvadmin_celery/task/job_list/
+[2026-05-27 15:37:51,678][django.server.log_message():212] [WARNING] "GET /api/dvadmin_celery/task/job_list/?limit=999 HTTP/1.1" 404 4453
+[2026-05-27 15:37:51,679][django.request.log_response():241] [WARNING] Not Found: /api/dvadmin_celery/task/
+[2026-05-27 15:37:51,680][django.server.log_message():212] [WARNING] "GET /api/dvadmin_celery/task/?page=1&limit=20 HTTP/1.1" 404 4436
+[2026-05-27 15:37:55,273][django.server.log_message():212] [INFO] "OPTIONS /api/dvadmin_celery/task_detail/?page=1&limit=20 HTTP/1.1" 200 0
+[2026-05-27 15:37:55,279][django.request.log_response():241] [WARNING] Not Found: /api/dvadmin_celery/task_detail/
+[2026-05-27 15:37:55,282][django.server.log_message():212] [WARNING] "GET /api/dvadmin_celery/task_detail/?page=1&limit=20 HTTP/1.1" 404 4457
+[2026-05-27 15:37:59,774][django.request.log_response():241] [WARNING] Not Found: /api/dvadmin_celery/task/job_list/
+[2026-05-27 15:37:59,776][django.request.log_response():241] [WARNING] Not Found: /api/dvadmin_celery/task/
+[2026-05-27 15:37:59,776][django.server.log_message():212] [WARNING] "GET /api/dvadmin_celery/task/job_list/?limit=999 HTTP/1.1" 404 4453
+[2026-05-27 15:37:59,776][django.server.log_message():212] [WARNING] "GET /api/dvadmin_celery/task/?page=1&limit=20 HTTP/1.1" 404 4436
+[2026-05-27 15:38:05,463][django.server.log_message():212] [INFO] "OPTIONS /api/system/system_config/?limit=999&parent__isnull=True&language=zh-cn HTTP/1.1" 200 0
+[2026-05-27 15:38:05,545][django.server.log_message():212] [INFO] "GET /api/system/system_config/?limit=999&parent__isnull=True&language=zh-cn HTTP/1.1" 200 16770
+[2026-05-27 15:38:05,608][django.server.log_message():212] [INFO] "OPTIONS /api/system/system_config/?parent=1&limit=999&language=zh-cn HTTP/1.1" 200 0
+[2026-05-27 15:38:05,610][django.server.log_message():212] [INFO] "OPTIONS /api/system/system_config/?parent=16&limit=999&language=zh-cn HTTP/1.1" 200 0
+[2026-05-27 15:38:05,612][django.server.log_message():212] [INFO] "OPTIONS /api/system/system_config/?parent__isnull=True&limit=999&language=zh-cn HTTP/1.1" 200 0
+[2026-05-27 15:38:05,613][django.server.log_message():212] [INFO] "OPTIONS /api/system/system_config/?parent=6&limit=999&language=zh-cn HTTP/1.1" 200 0
+[2026-05-27 15:38:05,683][django.server.log_message():212] [INFO] "GET /api/system/system_config/?parent=1&limit=999&language=zh-cn HTTP/1.1" 200 2517
+[2026-05-27 15:38:05,697][django.server.log_message():212] [INFO] "GET /api/system/system_config/?parent=6&limit=999&language=zh-cn HTTP/1.1" 200 5379
+[2026-05-27 15:38:05,716][django.server.log_message():212] [INFO] "GET /api/system/system_config/?parent=16&limit=999&language=zh-cn HTTP/1.1" 200 7903
+[2026-05-27 15:38:05,722][django.server.log_message():212] [INFO] "GET /api/system/system_config/?parent__isnull=True&limit=999&language=zh-cn HTTP/1.1" 200 16770
+[2026-05-27 15:38:08,387][django.server.log_message():212] [INFO] "OPTIONS /swagger.json HTTP/1.1" 200 0
+[2026-05-27 15:38:08,387][django.server.log_message():212] [INFO] "OPTIONS /api/system/menu/ HTTP/1.1" 200 0
+[2026-05-27 15:38:08,387][django.server.log_message():212] [INFO] "OPTIONS /api/system/column/get_models/ HTTP/1.1" 200 0
+[2026-05-27 15:38:08,388][django.server.log_message():212] [INFO] "OPTIONS /api/system/column/get_models/ HTTP/1.1" 200 0
+[2026-05-27 15:38:08,419][django.server.log_message():212] [INFO] "GET /api/system/column/get_models/ HTTP/1.1" 200 1726
+[2026-05-27 15:38:08,444][django.server.log_message():212] [INFO] "GET /api/system/column/get_models/ HTTP/1.1" 200 1726
+[2026-05-27 15:38:08,452][django.server.log_message():212] [INFO] "GET /api/system/menu/ HTTP/1.1" 200 2319
+[2026-05-27 15:38:09,047][django.server.log_message():212] [INFO] "GET /swagger.json HTTP/1.1" 200 373795
+[2026-05-27 15:38:10,683][django.server.log_message():212] [INFO] "OPTIONS /api/system/menu/?parent=9 HTTP/1.1" 200 0
+[2026-05-27 15:38:10,712][django.server.log_message():212] [INFO] "GET /api/system/menu/?parent=9 HTTP/1.1" 200 4137
+[2026-05-27 15:38:14,885][django.server.log_message():212] [INFO] "GET /api/system/system_config/?limit=999&parent__isnull=True&language=zh-cn HTTP/1.1" 200 16770
+[2026-05-27 15:38:15,022][django.server.log_message():212] [INFO] "GET /api/system/system_config/?parent=1&limit=999&language=zh-cn HTTP/1.1" 200 2517
+[2026-05-27 15:38:15,042][django.server.log_message():212] [INFO] "GET /api/system/system_config/?parent=6&limit=999&language=zh-cn HTTP/1.1" 200 5379
+[2026-05-27 15:38:15,064][django.server.log_message():212] [INFO] "GET /api/system/system_config/?parent=16&limit=999&language=zh-cn HTTP/1.1" 200 7903
+[2026-05-27 15:38:15,068][django.server.log_message():212] [INFO] "GET /api/system/system_config/?parent__isnull=True&limit=999&language=zh-cn HTTP/1.1" 200 16770
+[2026-05-27 15:47:58,009][django.server.log_message():212] [INFO] "GET / HTTP/1.1" 200 2251
+[2026-05-27 15:47:58,592][django.server.log_message():212] [INFO] "GET /?format=openapi HTTP/1.1" 200 373795
+[2026-05-27 15:48:02,346][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 328
+[2026-05-27 15:48:02,360][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-05-27 15:48:02,367][django.server.log_message():212] [INFO] "GET /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 1599
+[2026-05-27 15:48:02,368][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-27 15:48:02,371][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-05-27 15:48:02,377][django.server.log_message():212] [INFO] "GET /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 8302
+[2026-05-27 15:48:02,463][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-27 15:48:02,466][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5040
+[2026-05-27 15:48:02,497][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_self_receive/ HTTP/1.1" 200 110
+[2026-05-27 15:48:02,590][django.request.log_response():241] [WARNING] Not Found: /src/assets/img/headerImage.png
+[2026-05-27 15:48:02,591][django.server.log_message():212] [WARNING] "GET /src/assets/img/headerImage.png HTTP/1.1" 404 4434
+[2026-05-27 15:48:02,597][django.server.log_message():212] [INFO] "GET /sse/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY HTTP/1.1" 200 72
+[2026-05-27 15:48:07,482][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-27 15:48:07,483][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5040
+[2026-05-27 15:48:12,511][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-27 15:48:12,511][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5040
+[2026-05-27 15:48:17,520][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-27 15:48:17,520][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5040
+[2026-05-28 09:13:03,393][django.server.log_message():212] [INFO] "OPTIONS /api/system/user/user_info/ HTTP/1.1" 200 0
+[2026-05-28 09:13:03,530][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 328
+[2026-05-28 09:13:03,538][django.server.log_message():212] [INFO] "OPTIONS /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 0
+[2026-05-28 09:13:03,542][django.server.log_message():212] [INFO] "OPTIONS /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 0
+[2026-05-28 09:13:03,542][django.server.log_message():212] [INFO] "OPTIONS /api/init/settings/ HTTP/1.1" 200 0
+[2026-05-28 09:13:03,542][django.server.log_message():212] [INFO] "OPTIONS /api/system/dept/all_dept/ HTTP/1.1" 200 0
+[2026-05-28 09:13:03,549][django.server.log_message():212] [INFO] "OPTIONS /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 0
+[2026-05-28 09:13:03,549][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-05-28 09:13:03,572][django.server.log_message():212] [INFO] "GET /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 1599
+[2026-05-28 09:13:03,578][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-05-28 09:13:03,586][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-28 09:13:03,587][django.server.log_message():212] [INFO] "GET /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 8302
+[2026-05-28 09:13:03,660][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-28 09:13:03,660][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5040
+[2026-05-28 09:13:03,688][django.server.log_message():212] [INFO] "OPTIONS /api/system/message_center/get_self_receive/ HTTP/1.1" 200 0
+[2026-05-28 09:13:03,716][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_self_receive/ HTTP/1.1" 200 110
+[2026-05-28 09:13:03,811][django.request.log_response():241] [WARNING] Not Found: /src/assets/img/headerImage.png
+[2026-05-28 09:13:03,812][django.server.log_message():212] [WARNING] "GET /src/assets/img/headerImage.png HTTP/1.1" 404 4434
+[2026-05-28 09:13:03,825][django.server.log_message():212] [INFO] "GET /sse/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY HTTP/1.1" 200 72
+[2026-05-28 09:13:08,693][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-28 09:13:08,695][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5040
+[2026-05-28 09:13:13,713][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-28 09:13:13,713][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5040
+[2026-05-28 09:13:18,734][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/
+[2026-05-28 09:13:18,735][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5OTMxODE0LCJpYXQiOjE3Nzk4NDU0MTQsImp0aSI6ImNjNjE0YWRjZDE0MDRiNmI5NjQwYTQxMWZmZDU1MTBmIiwidXNlcl9pZCI6N30.0vckY_Y2O6mvB-hdCsOSBTSoNcvcusddxV3sEz22jgY/ HTTP/1.1" 404 5040
+[2026-05-28 09:44:35,345][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-05-28 09:44:41,900][django.server.log_message():212] [INFO] "GET / HTTP/1.1" 200 2251
+[2026-05-28 09:44:42,444][django.server.log_message():212] [INFO] "GET /?format=openapi HTTP/1.1" 200 373795
+[2026-05-28 09:45:28,908][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 214
+[2026-05-28 09:45:55,813][django.server.log_message():212] [INFO] "OPTIONS /api/captcha/ HTTP/1.1" 200 0
+[2026-05-28 09:45:55,844][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-28 09:45:55,937][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 5253
+[2026-05-28 09:46:06,134][django.server.log_message():212] [INFO] "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2026-05-28 09:46:06,209][dvadmin.utils.backends.authenticate():23] [INFO] root 正在使用本地登录...
+[2026-05-28 09:46:06,682][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 665
+[2026-05-28 09:46:06,695][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-05-28 09:46:06,717][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 328
+[2026-05-28 09:46:06,731][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-05-28 09:46:06,738][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-28 09:46:06,744][django.server.log_message():212] [INFO] "GET /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 1599
+[2026-05-28 09:46:06,749][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 328
+[2026-05-28 09:46:06,749][django.server.log_message():212] [INFO] "GET /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 8302
+[2026-05-28 09:46:06,749][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-05-28 09:46:06,759][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-05-28 09:46:06,770][django.server.log_message():212] [INFO] "GET /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 1599
+[2026-05-28 09:46:06,770][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-28 09:46:06,770][django.server.log_message():212] [INFO] "GET /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 8302
+[2026-05-28 09:46:06,771][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-05-28 09:46:07,274][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/
+[2026-05-28 09:46:07,275][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/ HTTP/1.1" 404 5040
+[2026-05-28 09:46:07,446][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_self_receive/ HTTP/1.1" 200 110
+[2026-05-28 09:46:07,732][django.request.log_response():241] [WARNING] Not Found: /src/assets/img/headerImage.png
+[2026-05-28 09:46:07,734][django.server.log_message():212] [WARNING] "GET /src/assets/img/headerImage.png HTTP/1.1" 404 4434
+[2026-05-28 09:46:07,744][django.server.log_message():212] [INFO] "GET /sse/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4 HTTP/1.1" 200 72
+[2026-05-28 09:46:12,300][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/
+[2026-05-28 09:46:12,300][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/ HTTP/1.1" 404 5040
+[2026-05-28 09:46:17,322][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/
+[2026-05-28 09:46:17,323][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/ HTTP/1.1" 404 5040
+[2026-05-28 09:46:22,336][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/
+[2026-05-28 09:46:22,338][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/ HTTP/1.1" 404 5040
+[2026-05-28 11:41:06,986][django.server.log_message():212] [INFO] "OPTIONS /api/system/user/user_info/ HTTP/1.1" 200 0
+[2026-05-28 11:41:07,126][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 328
+[2026-05-28 11:41:07,133][django.server.log_message():212] [INFO] "OPTIONS /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 0
+[2026-05-28 11:41:07,137][django.server.log_message():212] [INFO] "OPTIONS /api/system/dept/all_dept/ HTTP/1.1" 200 0
+[2026-05-28 11:41:07,137][django.server.log_message():212] [INFO] "OPTIONS /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 0
+[2026-05-28 11:41:07,137][django.server.log_message():212] [INFO] "OPTIONS /api/init/settings/ HTTP/1.1" 200 0
+[2026-05-28 11:41:07,138][django.server.log_message():212] [INFO] "OPTIONS /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 0
+[2026-05-28 11:41:07,147][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-05-28 11:41:07,161][django.server.log_message():212] [INFO] "GET /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 1599
+[2026-05-28 11:41:07,174][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-28 11:41:07,174][django.server.log_message():212] [INFO] "GET /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 8302
+[2026-05-28 11:41:07,187][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-05-28 11:41:07,255][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/
+[2026-05-28 11:41:07,256][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/ HTTP/1.1" 404 5040
+[2026-05-28 11:41:07,291][django.server.log_message():212] [INFO] "OPTIONS /api/system/message_center/get_self_receive/ HTTP/1.1" 200 0
+[2026-05-28 11:41:07,310][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_self_receive/ HTTP/1.1" 200 110
+[2026-05-28 11:41:07,416][django.request.log_response():241] [WARNING] Not Found: /src/assets/img/headerImage.png
+[2026-05-28 11:41:07,417][django.server.log_message():212] [WARNING] "GET /src/assets/img/headerImage.png HTTP/1.1" 404 4434
+[2026-05-28 11:41:07,426][django.server.log_message():212] [INFO] "GET /sse/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4 HTTP/1.1" 200 72
+[2026-05-28 11:41:12,275][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/
+[2026-05-28 11:41:12,277][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/ HTTP/1.1" 404 5040
+[2026-05-28 11:41:17,294][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/
+[2026-05-28 11:41:17,295][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/ HTTP/1.1" 404 5040
+[2026-05-28 11:41:22,320][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/
+[2026-05-28 11:41:22,321][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/ HTTP/1.1" 404 5040
+[2026-05-29 09:18:46,455][django.server.log_message():212] [INFO] "OPTIONS /api/system/user/user_info/ HTTP/1.1" 200 0
+[2026-05-29 09:18:46,640][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 328
+[2026-05-29 09:18:46,649][django.server.log_message():212] [INFO] "OPTIONS /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 0
+[2026-05-29 09:18:46,650][django.server.log_message():212] [INFO] "OPTIONS /api/init/settings/ HTTP/1.1" 200 0
+[2026-05-29 09:18:46,653][django.server.log_message():212] [INFO] "OPTIONS /api/system/dept/all_dept/ HTTP/1.1" 200 0
+[2026-05-29 09:18:46,653][django.server.log_message():212] [INFO] "OPTIONS /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 0
+[2026-05-29 09:18:46,660][django.server.log_message():212] [INFO] "OPTIONS /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 0
+[2026-05-29 09:18:46,668][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-05-29 09:18:46,701][django.server.log_message():212] [INFO] "GET /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 8302
+[2026-05-29 09:18:46,702][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-29 09:18:46,702][django.server.log_message():212] [INFO] "GET /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 1599
+[2026-05-29 09:18:46,709][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-05-29 09:18:46,789][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/
+[2026-05-29 09:18:46,791][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/ HTTP/1.1" 404 5040
+[2026-05-29 09:18:46,813][django.server.log_message():212] [INFO] "OPTIONS /api/system/message_center/get_self_receive/ HTTP/1.1" 200 0
+[2026-05-29 09:18:46,840][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_self_receive/ HTTP/1.1" 200 110
+[2026-05-29 09:18:46,943][django.request.log_response():241] [WARNING] Not Found: /src/assets/img/headerImage.png
+[2026-05-29 09:18:46,945][django.server.log_message():212] [WARNING] "GET /src/assets/img/headerImage.png HTTP/1.1" 404 4434
+[2026-05-29 09:18:46,968][django.server.log_message():212] [INFO] "GET /sse/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4 HTTP/1.1" 200 72
+[2026-05-29 09:18:49,166][django.server.log_message():212] [INFO] "GET / HTTP/1.1" 200 2251
+[2026-05-29 09:18:49,768][django.server.log_message():212] [INFO] "GET /?format=openapi HTTP/1.1" 200 373795
+[2026-05-29 09:18:51,056][django.server.log_message():212] [INFO] "GET / HTTP/1.1" 200 2251
+[2026-05-29 09:18:51,579][django.server.log_message():212] [INFO] "GET /?format=openapi HTTP/1.1" 200 373795
+[2026-05-29 09:18:52,490][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/
+[2026-05-29 09:18:52,491][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/ HTTP/1.1" 404 5040
+[2026-05-29 09:18:57,503][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/
+[2026-05-29 09:18:57,505][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/ HTTP/1.1" 404 5040
+[2026-05-29 09:18:59,664][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 328
+[2026-05-29 09:18:59,675][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-05-29 09:18:59,693][django.server.log_message():212] [INFO] "GET /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 1599
+[2026-05-29 09:18:59,694][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-29 09:18:59,694][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-05-29 09:18:59,699][django.server.log_message():212] [INFO] "GET /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 8302
+[2026-05-29 09:18:59,759][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/
+[2026-05-29 09:18:59,760][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/ HTTP/1.1" 404 5040
+[2026-05-29 09:18:59,808][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_self_receive/ HTTP/1.1" 200 110
+[2026-05-29 09:18:59,875][django.request.log_response():241] [WARNING] Not Found: /src/assets/img/headerImage.png
+[2026-05-29 09:18:59,875][django.server.log_message():212] [WARNING] "GET /src/assets/img/headerImage.png HTTP/1.1" 404 4434
+[2026-05-29 09:18:59,882][django.server.log_message():212] [INFO] "GET /sse/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4 HTTP/1.1" 200 72
+[2026-05-29 09:19:04,779][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/
+[2026-05-29 09:19:04,779][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/ HTTP/1.1" 404 5040
+[2026-05-29 09:19:10,402][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/
+[2026-05-29 09:19:10,402][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/ HTTP/1.1" 404 5040
+[2026-05-29 09:19:16,408][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/
+[2026-05-29 09:19:16,408][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDE5MTY2LCJpYXQiOjE3Nzk5MzI3NjYsImp0aSI6ImEwOTZiMDk2OWU1MDRkODU4MTk1MGExMDczMTJkN2FlIiwidXNlcl9pZCI6N30.8ViGlIX2DSwkaj76sQl8Dwsdwp6yqW1MrL3f6GqPDf4/ HTTP/1.1" 404 5040
+[2026-05-29 13:39:30,277][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc3NDI3OTg0LCJpYXQiOjE3NzczNDE1ODQsImp0aSI6ImJiN2JjYmNjMDZkMjRhNTBiMDdjZDBmOGE3ZGViZjJiIiwidXNlcl9pZCI6NH0.sSlpUYippjcLEt6xMjRGSeJJskIa6vH_dTd2Z5b6Qjs/
+[2026-05-29 13:39:30,284][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc3NDI3OTg0LCJpYXQiOjE3NzczNDE1ODQsImp0aSI6ImJiN2JjYmNjMDZkMjRhNTBiMDdjZDBmOGE3ZGViZjJiIiwidXNlcl9pZCI6NH0.sSlpUYippjcLEt6xMjRGSeJJskIa6vH_dTd2Z5b6Qjs/ HTTP/1.1" 404 5040
+[2026-05-29 13:39:30,477][django.server.log_message():212] [INFO] "OPTIONS /api/captcha/ HTTP/1.1" 200 0
+[2026-05-29 13:39:30,480][django.server.log_message():212] [INFO] "OPTIONS /api/init/settings/ HTTP/1.1" 200 0
+[2026-05-29 13:39:30,680][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-05-29 13:39:30,786][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 5713
+[2026-05-29 13:39:36,413][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc3NDI3OTg0LCJpYXQiOjE3NzczNDE1ODQsImp0aSI6ImJiN2JjYmNjMDZkMjRhNTBiMDdjZDBmOGE3ZGViZjJiIiwidXNlcl9pZCI6NH0.sSlpUYippjcLEt6xMjRGSeJJskIa6vH_dTd2Z5b6Qjs/
+[2026-05-29 13:39:36,414][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc3NDI3OTg0LCJpYXQiOjE3NzczNDE1ODQsImp0aSI6ImJiN2JjYmNjMDZkMjRhNTBiMDdjZDBmOGE3ZGViZjJiIiwidXNlcl9pZCI6NH0.sSlpUYippjcLEt6xMjRGSeJJskIa6vH_dTd2Z5b6Qjs/ HTTP/1.1" 404 5040
+[2026-05-29 13:39:42,427][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc3NDI3OTg0LCJpYXQiOjE3NzczNDE1ODQsImp0aSI6ImJiN2JjYmNjMDZkMjRhNTBiMDdjZDBmOGE3ZGViZjJiIiwidXNlcl9pZCI6NH0.sSlpUYippjcLEt6xMjRGSeJJskIa6vH_dTd2Z5b6Qjs/
+[2026-05-29 13:39:42,429][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc3NDI3OTg0LCJpYXQiOjE3NzczNDE1ODQsImp0aSI6ImJiN2JjYmNjMDZkMjRhNTBiMDdjZDBmOGE3ZGViZjJiIiwidXNlcl9pZCI6NH0.sSlpUYippjcLEt6xMjRGSeJJskIa6vH_dTd2Z5b6Qjs/ HTTP/1.1" 404 5040
+[2026-05-29 13:39:48,406][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc3NDI3OTg0LCJpYXQiOjE3NzczNDE1ODQsImp0aSI6ImJiN2JjYmNjMDZkMjRhNTBiMDdjZDBmOGE3ZGViZjJiIiwidXNlcl9pZCI6NH0.sSlpUYippjcLEt6xMjRGSeJJskIa6vH_dTd2Z5b6Qjs/
+[2026-05-29 13:39:48,408][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc3NDI3OTg0LCJpYXQiOjE3NzczNDE1ODQsImp0aSI6ImJiN2JjYmNjMDZkMjRhNTBiMDdjZDBmOGE3ZGViZjJiIiwidXNlcl9pZCI6NH0.sSlpUYippjcLEt6xMjRGSeJJskIa6vH_dTd2Z5b6Qjs/ HTTP/1.1" 404 5040
+[2026-06-03 19:10:36,720][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-06-03 19:11:21,074][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-06-03 19:13:08,176][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\application\settings.py changed, reloading.
+[2026-06-03 19:13:08,515][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\application\settings.py changed, reloading.
+[2026-06-03 19:13:08,960][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-06-03 19:13:09,245][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-06-03 19:13:24,479][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-06-03 19:14:46,891][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\application\settings.py changed, reloading.
+[2026-06-03 19:14:46,907][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\application\settings.py changed, reloading.
+[2026-06-03 19:14:47,047][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\application\settings.py changed, reloading.
+[2026-06-03 19:14:48,566][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-06-03 19:14:48,699][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-06-03 19:14:58,862][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-06-03 19:16:12,096][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-06-03 19:16:41,469][django.server.log_message():212] [INFO] "GET / HTTP/1.1" 200 2251
+[2026-06-03 19:16:41,490][django.server.log_message():212] [INFO] "GET /static/drf-yasg/style.css HTTP/1.1" 200 1120
+[2026-06-03 19:16:41,499][django.server.log_message():212] [INFO] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145208
+[2026-06-03 19:16:41,504][django.server.log_message():212] [INFO] "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2096
+[2026-06-03 19:16:41,505][django.server.log_message():212] [INFO] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322865
+[2026-06-03 19:16:41,510][django.server.log_message():212] [INFO] "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15355
+[2026-06-03 19:16:41,511][django.server.log_message():212] [INFO] "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56937
+[2026-06-03 19:16:41,519][django.server.log_message():212] [INFO] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046585
+[2026-06-03 19:16:42,187][django.server.log_message():212] [INFO] "GET /?format=openapi HTTP/1.1" 200 338244
+[2026-06-03 19:18:02,288][django.server.log_message():212] [INFO] "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2026-06-03 19:18:02,451][dvadmin.utils.exception.CustomExceptionHandler():69] [ERROR] Traceback (most recent call last):
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 2053, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework_simplejwt\views.py", line 44, in post
+    serializer.is_valid(raise_exception=True)
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\serializers.py", line 445, in run_validation
+    value = self.validate(value)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\dvadmin\system\views\login.py", line 74, in validate
+    self.image_code = CaptchaStore.objects.filter(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1319, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got ''.
+Traceback (most recent call last):
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 2053, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework_simplejwt\views.py", line 44, in post
+    serializer.is_valid(raise_exception=True)
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\serializers.py", line 445, in run_validation
+    value = self.validate(value)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\dvadmin\system\views\login.py", line 74, in validate
+    self.image_code = CaptchaStore.objects.filter(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1319, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got ''.
+[2026-06-03 19:18:02,500][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 74
+[2026-06-03 19:18:02,509][django.server.log_message():212] [INFO] "OPTIONS /api/captcha/ HTTP/1.1" 200 0
+[2026-06-03 19:18:02,612][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 4933
+[2026-06-03 19:18:21,966][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 70
+[2026-06-03 19:18:21,998][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 5133
+[2026-06-03 19:20:40,506][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 70
+[2026-06-03 19:20:40,540][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 5185
+[2026-06-03 19:21:30,530][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 70
+[2026-06-03 19:21:30,571][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 5253
+[2026-06-03 19:21:41,031][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 70
+[2026-06-03 19:21:41,075][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 4753
+[2026-06-03 19:23:03,117][django.server.log_message():212] [INFO] "GET / HTTP/1.1" 200 2251
+[2026-06-03 19:23:03,279][django.server.log_message():212] [INFO] "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+[2026-06-03 19:23:03,642][django.server.log_message():212] [INFO] "GET /?format=openapi HTTP/1.1" 200 338244
+[2026-06-03 19:23:38,454][django.server.log_message():212] [INFO] "OPTIONS /api/init/settings/ HTTP/1.1" 200 0
+[2026-06-03 19:23:38,486][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-06-03 19:23:38,516][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 4753
+[2026-06-03 19:24:11,064][dvadmin.utils.backends.authenticate():23] [INFO] root 正在使用本地登录...
+[2026-06-03 19:24:11,612][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 110
+[2026-06-03 19:24:11,651][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 4045
+[2026-06-03 19:25:50,822][dvadmin.utils.backends.authenticate():23] [INFO] superadmin 正在使用本地登录...
+[2026-06-03 19:25:51,371][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 110
+[2026-06-03 19:25:51,407][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 4689
+[2026-06-03 19:28:16,214][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 619
+[2026-06-03 19:28:16,240][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 5601
+[2026-06-03 19:28:37,990][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 70
+[2026-06-03 19:28:38,025][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 5477
+[2026-06-03 19:28:53,438][dvadmin.utils.backends.authenticate():23] [INFO] root 正在使用本地登录...
+[2026-06-03 19:28:53,970][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 110
+[2026-06-03 19:28:54,009][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 5669
+[2026-06-03 19:29:33,419][dvadmin.utils.backends.authenticate():23] [INFO] superadmin 正在使用本地登录...
+[2026-06-03 19:29:46,815][dvadmin.utils.backends.authenticate():23] [INFO] superadmin 正在使用本地登录...
+[2026-06-03 19:30:18,655][dvadmin.utils.backends.authenticate():23] [INFO] superadmin 正在使用本地登录...
+[2026-06-03 19:30:32,200][dvadmin.utils.backends.authenticate():23] [INFO] superadmin 正在使用本地登录...
+[2026-06-03 19:30:45,089][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\dvadmin\utils\request_util.py changed, reloading.
+[2026-06-03 19:30:45,179][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\dvadmin\utils\request_util.py changed, reloading.
+[2026-06-03 19:30:45,452][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\dvadmin\utils\request_util.py changed, reloading.
+[2026-06-03 19:30:45,490][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\dvadmin\utils\request_util.py changed, reloading.
+[2026-06-03 19:30:45,496][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\dvadmin\utils\request_util.py changed, reloading.
+[2026-06-03 19:30:46,964][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-06-03 19:30:47,106][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-06-03 19:30:47,158][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-06-03 19:30:47,181][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-06-03 19:30:47,235][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-06-03 19:30:53,049][dvadmin.utils.backends.authenticate():23] [INFO] superadmin 正在使用本地登录...
+[2026-06-03 19:31:13,738][dvadmin.utils.backends.authenticate():23] [INFO] superadmin 正在使用本地登录...
+[2026-06-03 19:31:14,293][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 110
+[2026-06-03 19:31:14,305][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-03 19:31:22,218][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-03 19:31:22,237][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 620
+[2026-06-03 19:31:35,511][dvadmin.utils.backends.authenticate():23] [INFO] superadmin 正在使用本地登录...
+[2026-06-03 19:31:36,087][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 110
+[2026-06-03 19:31:36,098][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-03 19:31:45,330][dvadmin.utils.backends.authenticate():23] [INFO] superadmin 正在使用本地登录...
+[2026-06-03 19:31:45,902][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 110
+[2026-06-03 19:31:45,910][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-03 19:33:19,034][dvadmin.utils.backends.authenticate():23] [INFO] superadmin 正在使用本地登录...
+[2026-06-03 19:33:19,468][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 769
+[2026-06-03 19:34:39,826][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-03 19:34:39,838][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 620
+[2026-06-03 19:34:45,095][django.server.log_message():212] [INFO] "GET / HTTP/1.1" 200 2251
+[2026-06-03 19:34:45,557][django.server.log_message():212] [INFO] "GET /?format=openapi HTTP/1.1" 200 338244
+[2026-06-03 19:34:48,579][dvadmin.utils.backends.authenticate():23] [INFO] superadmin 正在使用本地登录...
+[2026-06-03 19:34:49,144][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 110
+[2026-06-03 19:34:49,153][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-04 11:12:37,447][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-06-04 11:13:04,528][django.server.log_message():212] [INFO] "GET / HTTP/1.1" 200 2251
+[2026-06-04 11:13:04,543][django.server.log_message():212] [INFO] "GET /static/drf-yasg/style.css HTTP/1.1" 200 1120
+[2026-06-04 11:13:04,546][django.server.log_message():212] [INFO] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145208
+[2026-06-04 11:13:04,552][django.server.log_message():212] [INFO] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322865
+[2026-06-04 11:13:04,555][django.server.log_message():212] [INFO] "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2096
+[2026-06-04 11:13:04,558][django.server.log_message():212] [INFO] "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56937
+[2026-06-04 11:13:04,559][django.server.log_message():212] [INFO] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046585
+[2026-06-04 11:13:04,561][django.server.log_message():212] [INFO] "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15355
+[2026-06-04 11:13:04,685][django.server.log_message():212] [INFO] "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+[2026-06-04 11:13:05,236][django.server.log_message():212] [INFO] "GET /?format=openapi HTTP/1.1" 200 338244
+[2026-06-04 11:15:12,235][django.server.log_message():212] [INFO] "OPTIONS /api/captcha/ HTTP/1.1" 200 0
+[2026-06-04 11:15:12,236][django.server.log_message():212] [INFO] "OPTIONS /api/init/settings/ HTTP/1.1" 200 0
+[2026-06-04 11:15:12,237][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-04 11:15:12,256][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 620
+[2026-06-04 11:17:53,004][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-04 11:17:53,022][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 620
+[2026-06-04 11:17:55,173][django.server.log_message():212] [INFO] "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2026-06-04 11:17:55,261][dvadmin.utils.backends.authenticate():23] [INFO] superadmin 正在使用本地登录...
+[2026-06-04 11:17:55,819][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 110
+[2026-06-04 11:17:55,828][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-04 11:18:07,571][dvadmin.utils.backends.authenticate():23] [INFO] superadmin 正在使用本地登录...
+[2026-06-04 11:18:08,129][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 110
+[2026-06-04 11:18:08,135][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-04 11:19:33,149][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-06-04 11:19:58,475][dvadmin.utils.backends.authenticate():23] [INFO] superadmin 正在使用本地登录...
+[2026-06-04 11:19:58,775][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 769
+[2026-06-04 11:19:58,814][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-04 11:19:58,870][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 620
+[2026-06-04 11:20:09,544][django.server.log_message():212] [INFO] "OPTIONS /api/system/user/login_change_password/ HTTP/1.1" 200 0
+[2026-06-04 11:20:09,854][django.server.log_message():212] [INFO] "POST /api/system/user/login_change_password/ HTTP/1.1" 200 51
+[2026-06-04 11:20:09,862][django.server.log_message():212] [INFO] "OPTIONS /api/system/user/user_info/ HTTP/1.1" 200 0
+[2026-06-04 11:20:09,865][django.server.log_message():212] [INFO] "OPTIONS /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 0
+[2026-06-04 11:20:09,868][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-06-04 11:20:09,887][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 394
+[2026-06-04 11:20:09,911][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 394
+[2026-06-04 11:20:09,919][django.server.log_message():212] [INFO] "OPTIONS /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 0
+[2026-06-04 11:20:09,919][django.server.log_message():212] [INFO] "OPTIONS /api/system/dept/all_dept/ HTTP/1.1" 200 0
+[2026-06-04 11:20:09,923][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-04 11:20:09,930][django.server.log_message():212] [INFO] "OPTIONS /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 0
+[2026-06-04 11:20:09,933][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-06-04 11:20:09,943][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-06-04 11:20:09,951][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 620
+[2026-06-04 11:20:09,989][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-06-04 11:20:09,989][django.server.log_message():212] [INFO] "GET /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 1599
+[2026-06-04 11:20:09,989][django.server.log_message():212] [INFO] "GET /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 8297
+[2026-06-04 11:20:10,003][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 620
+[2026-06-04 11:20:10,016][django.server.log_message():212] [INFO] "GET /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 1599
+[2026-06-04 11:20:10,028][django.server.log_message():212] [INFO] "GET /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 8297
+[2026-06-04 11:20:10,030][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 620
+[2026-06-04 11:20:10,032][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-06-04 11:20:10,371][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwNjI5NTk4LCJpYXQiOjE3ODA1NDMxOTgsImp0aSI6ImQ3YTYyOTJhMTAwNzRlOWFhMGIzYzIwNDhiMjNkNzNmIiwidXNlcl9pZCI6Mn0.0EbCnZBHH1NNSdkpTSvfOv_Fjlwa_NylaJRXgqGTYuU/
+[2026-06-04 11:20:10,374][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwNjI5NTk4LCJpYXQiOjE3ODA1NDMxOTgsImp0aSI6ImQ3YTYyOTJhMTAwNzRlOWFhMGIzYzIwNDhiMjNkNzNmIiwidXNlcl9pZCI6Mn0.0EbCnZBHH1NNSdkpTSvfOv_Fjlwa_NylaJRXgqGTYuU/ HTTP/1.1" 404 4923
+[2026-06-04 11:20:10,642][django.server.log_message():212] [INFO] "OPTIONS /api/system/message_center/get_self_receive/ HTTP/1.1" 200 0
+[2026-06-04 11:20:10,679][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_self_receive/ HTTP/1.1" 200 110
+[2026-06-04 11:20:10,961][django.request.log_response():241] [WARNING] Not Found: /src/assets/img/headerImage.png
+[2026-06-04 11:20:10,962][django.server.log_message():212] [WARNING] "GET /src/assets/img/headerImage.png HTTP/1.1" 404 4317
+[2026-06-04 11:20:10,971][django.server.log_message():212] [INFO] "GET /sse/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwNjI5NTk4LCJpYXQiOjE3ODA1NDMxOTgsImp0aSI6ImQ3YTYyOTJhMTAwNzRlOWFhMGIzYzIwNDhiMjNkNzNmIiwidXNlcl9pZCI6Mn0.0EbCnZBHH1NNSdkpTSvfOv_Fjlwa_NylaJRXgqGTYuU HTTP/1.1" 200 72
+[2026-06-04 11:20:15,394][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwNjI5NTk4LCJpYXQiOjE3ODA1NDMxOTgsImp0aSI6ImQ3YTYyOTJhMTAwNzRlOWFhMGIzYzIwNDhiMjNkNzNmIiwidXNlcl9pZCI6Mn0.0EbCnZBHH1NNSdkpTSvfOv_Fjlwa_NylaJRXgqGTYuU/
+[2026-06-04 11:20:15,394][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwNjI5NTk4LCJpYXQiOjE3ODA1NDMxOTgsImp0aSI6ImQ3YTYyOTJhMTAwNzRlOWFhMGIzYzIwNDhiMjNkNzNmIiwidXNlcl9pZCI6Mn0.0EbCnZBHH1NNSdkpTSvfOv_Fjlwa_NylaJRXgqGTYuU/ HTTP/1.1" 404 4923
+[2026-06-04 11:20:20,420][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwNjI5NTk4LCJpYXQiOjE3ODA1NDMxOTgsImp0aSI6ImQ3YTYyOTJhMTAwNzRlOWFhMGIzYzIwNDhiMjNkNzNmIiwidXNlcl9pZCI6Mn0.0EbCnZBHH1NNSdkpTSvfOv_Fjlwa_NylaJRXgqGTYuU/
+[2026-06-04 11:20:20,420][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwNjI5NTk4LCJpYXQiOjE3ODA1NDMxOTgsImp0aSI6ImQ3YTYyOTJhMTAwNzRlOWFhMGIzYzIwNDhiMjNkNzNmIiwidXNlcl9pZCI6Mn0.0EbCnZBHH1NNSdkpTSvfOv_Fjlwa_NylaJRXgqGTYuU/ HTTP/1.1" 404 4923
+[2026-06-04 11:20:25,441][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwNjI5NTk4LCJpYXQiOjE3ODA1NDMxOTgsImp0aSI6ImQ3YTYyOTJhMTAwNzRlOWFhMGIzYzIwNDhiMjNkNzNmIiwidXNlcl9pZCI6Mn0.0EbCnZBHH1NNSdkpTSvfOv_Fjlwa_NylaJRXgqGTYuU/
+[2026-06-04 11:20:25,441][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwNjI5NTk4LCJpYXQiOjE3ODA1NDMxOTgsImp0aSI6ImQ3YTYyOTJhMTAwNzRlOWFhMGIzYzIwNDhiMjNkNzNmIiwidXNlcl9pZCI6Mn0.0EbCnZBHH1NNSdkpTSvfOv_Fjlwa_NylaJRXgqGTYuU/ HTTP/1.1" 404 4923
+[2026-06-04 11:20:36,795][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-04 11:20:36,803][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 620
+[2026-06-04 11:20:38,564][dvadmin.utils.backends.authenticate():23] [INFO] superadmin 正在使用本地登录...
+[2026-06-04 11:20:38,949][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 769
+[2026-06-04 11:20:38,960][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-06-04 11:20:38,973][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 394
+[2026-06-04 11:20:38,984][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-06-04 11:20:38,993][django.server.log_message():212] [INFO] "GET /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 1599
+[2026-06-04 11:20:38,994][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 620
+[2026-06-04 11:20:38,995][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-06-04 11:20:38,996][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 394
+[2026-06-04 11:20:39,007][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-06-04 11:20:39,007][django.server.log_message():212] [INFO] "GET /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 8297
+[2026-06-04 11:20:39,016][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 620
+[2026-06-04 11:20:39,018][django.server.log_message():212] [INFO] "GET /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 1599
+[2026-06-04 11:20:39,022][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-06-04 11:20:39,027][django.server.log_message():212] [INFO] "GET /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 8297
+[2026-06-04 11:20:39,092][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwNjI5NjM4LCJpYXQiOjE3ODA1NDMyMzgsImp0aSI6ImUxMTc4MTgxZWRkYzQ5YTg5YjM1YzYyNTZiOTlkY2VlIiwidXNlcl9pZCI6Mn0.LBkiEYc_-yPCoe4wUh-r6dvdcV5T696-lTF-_uXwujE/
+[2026-06-04 11:20:39,093][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwNjI5NjM4LCJpYXQiOjE3ODA1NDMyMzgsImp0aSI6ImUxMTc4MTgxZWRkYzQ5YTg5YjM1YzYyNTZiOTlkY2VlIiwidXNlcl9pZCI6Mn0.LBkiEYc_-yPCoe4wUh-r6dvdcV5T696-lTF-_uXwujE/ HTTP/1.1" 404 4923
+[2026-06-04 11:20:39,145][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_self_receive/ HTTP/1.1" 200 110
+[2026-06-04 11:20:39,246][django.request.log_response():241] [WARNING] Not Found: /src/assets/img/headerImage.png
+[2026-06-04 11:20:39,248][django.server.log_message():212] [WARNING] "GET /src/assets/img/headerImage.png HTTP/1.1" 404 4317
+[2026-06-04 11:20:39,271][django.server.log_message():212] [INFO] "GET /sse/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwNjI5NjM4LCJpYXQiOjE3ODA1NDMyMzgsImp0aSI6ImUxMTc4MTgxZWRkYzQ5YTg5YjM1YzYyNTZiOTlkY2VlIiwidXNlcl9pZCI6Mn0.LBkiEYc_-yPCoe4wUh-r6dvdcV5T696-lTF-_uXwujE HTTP/1.1" 200 72
+[2026-06-04 11:20:44,103][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwNjI5NjM4LCJpYXQiOjE3ODA1NDMyMzgsImp0aSI6ImUxMTc4MTgxZWRkYzQ5YTg5YjM1YzYyNTZiOTlkY2VlIiwidXNlcl9pZCI6Mn0.LBkiEYc_-yPCoe4wUh-r6dvdcV5T696-lTF-_uXwujE/
+[2026-06-04 11:20:44,104][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwNjI5NjM4LCJpYXQiOjE3ODA1NDMyMzgsImp0aSI6ImUxMTc4MTgxZWRkYzQ5YTg5YjM1YzYyNTZiOTlkY2VlIiwidXNlcl9pZCI6Mn0.LBkiEYc_-yPCoe4wUh-r6dvdcV5T696-lTF-_uXwujE/ HTTP/1.1" 404 4923
+[2026-06-04 11:20:49,129][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwNjI5NjM4LCJpYXQiOjE3ODA1NDMyMzgsImp0aSI6ImUxMTc4MTgxZWRkYzQ5YTg5YjM1YzYyNTZiOTlkY2VlIiwidXNlcl9pZCI6Mn0.LBkiEYc_-yPCoe4wUh-r6dvdcV5T696-lTF-_uXwujE/
+[2026-06-04 11:20:49,129][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwNjI5NjM4LCJpYXQiOjE3ODA1NDMyMzgsImp0aSI6ImUxMTc4MTgxZWRkYzQ5YTg5YjM1YzYyNTZiOTlkY2VlIiwidXNlcl9pZCI6Mn0.LBkiEYc_-yPCoe4wUh-r6dvdcV5T696-lTF-_uXwujE/ HTTP/1.1" 404 4923
+[2026-06-04 11:20:54,157][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwNjI5NjM4LCJpYXQiOjE3ODA1NDMyMzgsImp0aSI6ImUxMTc4MTgxZWRkYzQ5YTg5YjM1YzYyNTZiOTlkY2VlIiwidXNlcl9pZCI6Mn0.LBkiEYc_-yPCoe4wUh-r6dvdcV5T696-lTF-_uXwujE/
+[2026-06-04 11:20:54,157][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwNjI5NjM4LCJpYXQiOjE3ODA1NDMyMzgsImp0aSI6ImUxMTc4MTgxZWRkYzQ5YTg5YjM1YzYyNTZiOTlkY2VlIiwidXNlcl9pZCI6Mn0.LBkiEYc_-yPCoe4wUh-r6dvdcV5T696-lTF-_uXwujE/ HTTP/1.1" 404 4923
+[2026-06-08 09:47:28,714][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-06-08 09:58:13,779][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-06-08 10:00:55,707][django.server.log_message():212] [INFO] "OPTIONS /api/system/user/user_info/ HTTP/1.1" 200 0
+[2026-06-08 10:00:55,726][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 214
+[2026-06-08 10:01:31,078][django.server.log_message():212] [INFO] "GET / HTTP/1.1" 200 2251
+[2026-06-08 10:01:31,558][django.server.log_message():212] [INFO] "GET /?format=openapi HTTP/1.1" 200 338244
+[2026-06-08 10:04:08,012][django.server.log_message():212] [INFO] "OPTIONS /api/captcha/ HTTP/1.1" 200 0
+[2026-06-08 10:04:08,013][django.server.log_message():212] [INFO] "OPTIONS /api/init/settings/ HTTP/1.1" 200 0
+[2026-06-08 10:04:08,014][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-08 10:04:08,030][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 620
+[2026-06-08 10:05:09,131][django.server.log_message():212] [INFO] "OPTIONS /api/login/ HTTP/1.1" 200 0
+[2026-06-08 10:05:09,165][dvadmin.utils.backends.authenticate():23] [INFO] admin 正在使用本地登录...
+[2026-06-08 10:05:09,710][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 110
+[2026-06-08 10:05:09,719][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-08 10:05:24,633][dvadmin.utils.backends.authenticate():23] [INFO] admin 正在使用本地登录...
+[2026-06-08 10:05:25,173][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 110
+[2026-06-08 10:05:25,178][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-08 10:05:29,391][dvadmin.utils.backends.authenticate():23] [INFO] admin 正在使用本地登录...
+[2026-06-08 10:05:29,935][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 110
+[2026-06-08 10:05:29,942][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-08 10:07:20,156][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-08 10:07:20,169][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 620
+[2026-06-08 10:07:22,017][dvadmin.utils.backends.authenticate():23] [INFO] admin 正在使用本地登录...
+[2026-06-08 10:07:22,555][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 110
+[2026-06-08 10:07:22,563][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-08 10:07:41,456][dvadmin.utils.backends.authenticate():23] [INFO] superadmin 正在使用本地登录...
+[2026-06-08 10:07:42,045][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 110
+[2026-06-08 10:07:42,051][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-08 10:07:54,760][dvadmin.utils.backends.authenticate():23] [INFO] superadmin 正在使用本地登录...
+[2026-06-08 10:07:55,315][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 110
+[2026-06-08 10:07:55,325][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-08 10:09:54,943][django.utils.autoreload.trigger_reload():266] [INFO] D:\Users\Administrator\PycharmProjects\django-vue3-admin\backend\dvadmin\utils\backends.py changed, reloading.
+[2026-06-08 10:09:56,123][django.utils.autoreload.run_with_reloader():668] [INFO] Watching for file changes with StatReloader
+[2026-06-08 10:10:41,531][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-08 10:10:41,544][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 620
+[2026-06-08 10:10:42,794][dvadmin.utils.backends.authenticate():23] [INFO] admin 正在使用本地登录...
+[2026-06-08 10:10:43,218][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 715
+[2026-06-08 10:10:43,233][django.server.log_message():212] [INFO] "OPTIONS /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 0
+[2026-06-08 10:10:43,239][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-06-08 10:10:43,261][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 340
+[2026-06-08 10:10:43,274][django.server.log_message():212] [INFO] "OPTIONS /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 0
+[2026-06-08 10:10:43,277][django.server.log_message():212] [INFO] "OPTIONS /api/system/dept/all_dept/ HTTP/1.1" 200 0
+[2026-06-08 10:10:43,292][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-06-08 10:10:43,293][django.server.log_message():212] [INFO] "OPTIONS /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 0
+[2026-06-08 10:10:43,306][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 620
+[2026-06-08 10:10:43,308][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 340
+[2026-06-08 10:10:43,312][django.server.log_message():212] [INFO] "GET /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 39
+[2026-06-08 10:10:43,326][django.server.log_message():212] [INFO] "GET /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 77
+[2026-06-08 10:10:43,326][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-06-08 10:10:43,346][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 620
+[2026-06-08 10:10:43,348][django.server.log_message():212] [INFO] "GET /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 39
+[2026-06-08 10:10:43,351][django.server.log_message():212] [INFO] "GET /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 77
+[2026-06-08 10:10:43,374][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 48
+[2026-06-08 10:10:43,408][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 48
+[2026-06-08 10:10:43,749][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwOTcxMDQzLCJpYXQiOjE3ODA4ODQ2NDMsImp0aSI6ImQ3OTNiNmUyZGFjMDQyMzhhNzk3ODBjNDhiNTg3MGM1IiwidXNlcl9pZCI6M30.IvUa2OOJLcrCAdKsJggoQeZgwaMVBusp5d8rEWDoRnU/
+[2026-06-08 10:10:43,751][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwOTcxMDQzLCJpYXQiOjE3ODA4ODQ2NDMsImp0aSI6ImQ3OTNiNmUyZGFjMDQyMzhhNzk3ODBjNDhiNTg3MGM1IiwidXNlcl9pZCI6M30.IvUa2OOJLcrCAdKsJggoQeZgwaMVBusp5d8rEWDoRnU/ HTTP/1.1" 404 4923
+[2026-06-08 10:10:43,981][django.server.log_message():212] [INFO] "OPTIONS /api/system/message_center/get_self_receive/ HTTP/1.1" 200 0
+[2026-06-08 10:10:44,019][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_self_receive/ HTTP/1.1" 200 110
+[2026-06-08 10:10:44,368][django.request.log_response():241] [WARNING] Not Found: /src/assets/img/headerImage.png
+[2026-06-08 10:10:44,369][django.server.log_message():212] [WARNING] "GET /src/assets/img/headerImage.png HTTP/1.1" 404 4317
+[2026-06-08 10:10:44,384][django.server.log_message():212] [INFO] "GET /sse/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwOTcxMDQzLCJpYXQiOjE3ODA4ODQ2NDMsImp0aSI6ImQ3OTNiNmUyZGFjMDQyMzhhNzk3ODBjNDhiNTg3MGM1IiwidXNlcl9pZCI6M30.IvUa2OOJLcrCAdKsJggoQeZgwaMVBusp5d8rEWDoRnU HTTP/1.1" 200 72
+[2026-06-08 10:10:49,303][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwOTcxMDQzLCJpYXQiOjE3ODA4ODQ2NDMsImp0aSI6ImQ3OTNiNmUyZGFjMDQyMzhhNzk3ODBjNDhiNTg3MGM1IiwidXNlcl9pZCI6M30.IvUa2OOJLcrCAdKsJggoQeZgwaMVBusp5d8rEWDoRnU/
+[2026-06-08 10:10:49,304][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwOTcxMDQzLCJpYXQiOjE3ODA4ODQ2NDMsImp0aSI6ImQ3OTNiNmUyZGFjMDQyMzhhNzk3ODBjNDhiNTg3MGM1IiwidXNlcl9pZCI6M30.IvUa2OOJLcrCAdKsJggoQeZgwaMVBusp5d8rEWDoRnU/ HTTP/1.1" 404 4923
+[2026-06-08 10:10:55,303][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwOTcxMDQzLCJpYXQiOjE3ODA4ODQ2NDMsImp0aSI6ImQ3OTNiNmUyZGFjMDQyMzhhNzk3ODBjNDhiNTg3MGM1IiwidXNlcl9pZCI6M30.IvUa2OOJLcrCAdKsJggoQeZgwaMVBusp5d8rEWDoRnU/
+[2026-06-08 10:10:55,304][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwOTcxMDQzLCJpYXQiOjE3ODA4ODQ2NDMsImp0aSI6ImQ3OTNiNmUyZGFjMDQyMzhhNzk3ODBjNDhiNTg3MGM1IiwidXNlcl9pZCI6M30.IvUa2OOJLcrCAdKsJggoQeZgwaMVBusp5d8rEWDoRnU/ HTTP/1.1" 404 4923
+[2026-06-08 10:11:01,298][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwOTcxMDQzLCJpYXQiOjE3ODA4ODQ2NDMsImp0aSI6ImQ3OTNiNmUyZGFjMDQyMzhhNzk3ODBjNDhiNTg3MGM1IiwidXNlcl9pZCI6M30.IvUa2OOJLcrCAdKsJggoQeZgwaMVBusp5d8rEWDoRnU/
+[2026-06-08 10:11:01,299][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwOTcxMDQzLCJpYXQiOjE3ODA4ODQ2NDMsImp0aSI6ImQ3OTNiNmUyZGFjMDQyMzhhNzk3ODBjNDhiNTg3MGM1IiwidXNlcl9pZCI6M30.IvUa2OOJLcrCAdKsJggoQeZgwaMVBusp5d8rEWDoRnU/ HTTP/1.1" 404 4923
+[2026-06-08 10:39:37,053][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-08 10:39:37,067][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 620
+[2026-06-08 10:39:41,789][dvadmin.utils.backends.authenticate():23] [INFO] superadmin 正在使用本地登录...
+[2026-06-08 10:39:42,316][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 110
+[2026-06-08 10:39:42,325][django.server.log_message():212] [INFO] "GET /api/captcha/ HTTP/1.1" 200 39
+[2026-06-08 10:39:48,238][dvadmin.utils.backends.authenticate():23] [INFO] superadmin 正在使用本地登录...
+[2026-06-08 10:39:48,633][django.server.log_message():212] [INFO] "POST /api/login/ HTTP/1.1" 200 769
+[2026-06-08 10:39:48,645][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-06-08 10:39:48,662][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 394
+[2026-06-08 10:39:48,675][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-06-08 10:39:48,684][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 620
+[2026-06-08 10:39:48,686][django.server.log_message():212] [INFO] "GET /api/system/user/user_info/ HTTP/1.1" 200 394
+[2026-06-08 10:39:48,686][django.server.log_message():212] [INFO] "GET /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 1795
+[2026-06-08 10:39:48,688][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-06-08 10:39:48,697][django.server.log_message():212] [INFO] "GET /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 9527
+[2026-06-08 10:39:48,699][django.server.log_message():212] [INFO] "GET /api/init/dictionary/?dictionary_key=all HTTP/1.1" 200 2802
+[2026-06-08 10:39:48,709][django.server.log_message():212] [INFO] "GET /api/init/settings/ HTTP/1.1" 200 620
+[2026-06-08 10:39:48,711][django.server.log_message():212] [INFO] "GET /api/system/dept/all_dept/ HTTP/1.1" 200 171
+[2026-06-08 10:39:48,712][django.server.log_message():212] [INFO] "GET /api/system/menu_button/menu_button_all_permission/ HTTP/1.1" 200 1795
+[2026-06-08 10:39:48,712][django.server.log_message():212] [INFO] "GET /api/system/menu/web_router/?language=zh-cn HTTP/1.1" 200 9527
+[2026-06-08 10:39:48,777][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwOTcyNzg4LCJpYXQiOjE3ODA4ODYzODgsImp0aSI6IjI4NGVhYjY2ODkwOTRlYWU5NTA0ZDA1YzdjMjA1MDZlIiwidXNlcl9pZCI6Mn0.CuKU6ea3hoCKx76C8r249dOuUJVlPAFMzl1jzSI2EqQ/
+[2026-06-08 10:39:48,778][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwOTcyNzg4LCJpYXQiOjE3ODA4ODYzODgsImp0aSI6IjI4NGVhYjY2ODkwOTRlYWU5NTA0ZDA1YzdjMjA1MDZlIiwidXNlcl9pZCI6Mn0.CuKU6ea3hoCKx76C8r249dOuUJVlPAFMzl1jzSI2EqQ/ HTTP/1.1" 404 4923
+[2026-06-08 10:39:48,845][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_self_receive/ HTTP/1.1" 200 110
+[2026-06-08 10:39:48,973][django.request.log_response():241] [WARNING] Not Found: /src/assets/img/headerImage.png
+[2026-06-08 10:39:48,973][django.server.log_message():212] [WARNING] "GET /src/assets/img/headerImage.png HTTP/1.1" 404 4317
+[2026-06-08 10:39:48,982][django.server.log_message():212] [INFO] "GET /sse/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwOTcyNzg4LCJpYXQiOjE3ODA4ODYzODgsImp0aSI6IjI4NGVhYjY2ODkwOTRlYWU5NTA0ZDA1YzdjMjA1MDZlIiwidXNlcl9pZCI6Mn0.CuKU6ea3hoCKx76C8r249dOuUJVlPAFMzl1jzSI2EqQ HTTP/1.1" 200 72
+[2026-06-08 10:39:54,300][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwOTcyNzg4LCJpYXQiOjE3ODA4ODYzODgsImp0aSI6IjI4NGVhYjY2ODkwOTRlYWU5NTA0ZDA1YzdjMjA1MDZlIiwidXNlcl9pZCI6Mn0.CuKU6ea3hoCKx76C8r249dOuUJVlPAFMzl1jzSI2EqQ/
+[2026-06-08 10:39:54,301][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwOTcyNzg4LCJpYXQiOjE3ODA4ODYzODgsImp0aSI6IjI4NGVhYjY2ODkwOTRlYWU5NTA0ZDA1YzdjMjA1MDZlIiwidXNlcl9pZCI6Mn0.CuKU6ea3hoCKx76C8r249dOuUJVlPAFMzl1jzSI2EqQ/ HTTP/1.1" 404 4923
+[2026-06-08 10:40:00,119][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwOTcyNzg4LCJpYXQiOjE3ODA4ODYzODgsImp0aSI6IjI4NGVhYjY2ODkwOTRlYWU5NTA0ZDA1YzdjMjA1MDZlIiwidXNlcl9pZCI6Mn0.CuKU6ea3hoCKx76C8r249dOuUJVlPAFMzl1jzSI2EqQ/
+[2026-06-08 10:40:00,119][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwOTcyNzg4LCJpYXQiOjE3ODA4ODYzODgsImp0aSI6IjI4NGVhYjY2ODkwOTRlYWU5NTA0ZDA1YzdjMjA1MDZlIiwidXNlcl9pZCI6Mn0.CuKU6ea3hoCKx76C8r249dOuUJVlPAFMzl1jzSI2EqQ/ HTTP/1.1" 404 4923
+[2026-06-08 10:40:05,145][django.request.log_response():241] [WARNING] Not Found: /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwOTcyNzg4LCJpYXQiOjE3ODA4ODYzODgsImp0aSI6IjI4NGVhYjY2ODkwOTRlYWU5NTA0ZDA1YzdjMjA1MDZlIiwidXNlcl9pZCI6Mn0.CuKU6ea3hoCKx76C8r249dOuUJVlPAFMzl1jzSI2EqQ/
+[2026-06-08 10:40:05,146][django.server.log_message():212] [WARNING] "GET /ws/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwOTcyNzg4LCJpYXQiOjE3ODA4ODYzODgsImp0aSI6IjI4NGVhYjY2ODkwOTRlYWU5NTA0ZDA1YzdjMjA1MDZlIiwidXNlcl9pZCI6Mn0.CuKU6ea3hoCKx76C8r249dOuUJVlPAFMzl1jzSI2EqQ/ HTTP/1.1" 404 4923
+[2026-06-08 10:40:06,352][django.server.log_message():212] [INFO] "OPTIONS /api/encoder_test/test-cases/?page=1&limit=10&name=&test_type= HTTP/1.1" 200 0
+[2026-06-08 10:40:06,358][django.request.log_response():241] [WARNING] Not Found: /api/encoder_test/test-cases/
+[2026-06-08 10:40:06,358][django.server.log_message():212] [WARNING] "GET /api/encoder_test/test-cases/?page=1&limit=10&name=&test_type= HTTP/1.1" 404 4356
+[2026-06-08 10:40:09,960][django.server.log_message():212] [INFO] "OPTIONS /api/encoder_test/test-tasks/?page=1&limit=10 HTTP/1.1" 200 0
+[2026-06-08 10:40:09,960][django.server.log_message():212] [INFO] "OPTIONS /api/encoder_test/test-cases/?limit=100 HTTP/1.1" 200 0
+[2026-06-08 10:40:09,968][django.request.log_response():241] [WARNING] Not Found: /api/encoder_test/test-tasks/
+[2026-06-08 10:40:09,969][django.request.log_response():241] [WARNING] Not Found: /api/encoder_test/test-cases/
+[2026-06-08 10:40:09,969][django.server.log_message():212] [WARNING] "GET /api/encoder_test/test-tasks/?page=1&limit=10 HTTP/1.1" 404 4331
+[2026-06-08 10:40:09,970][django.server.log_message():212] [WARNING] "GET /api/encoder_test/test-cases/?limit=100 HTTP/1.1" 404 4321
+[2026-06-08 10:40:11,673][django.request.log_response():241] [WARNING] Not Found: /api/encoder_test/test-cases/
+[2026-06-08 10:40:11,674][django.server.log_message():212] [WARNING] "GET /api/encoder_test/test-cases/?page=1&limit=10&name=&test_type= HTTP/1.1" 404 4356
+[2026-06-08 10:40:25,119][django.server.log_message():212] [INFO] "OPTIONS /api/encoder_test/scanner/scan/ HTTP/1.1" 200 0
+[2026-06-08 10:40:25,125][django.request.log_response():241] [WARNING] Not Found: /api/encoder_test/scanner/scan/
+[2026-06-08 10:40:25,126][django.server.log_message():212] [WARNING] "POST /api/encoder_test/scanner/scan/ HTTP/1.1" 404 4318
+[2026-06-08 10:40:34,881][django.request.log_response():241] [WARNING] Not Found: /api/encoder_test/test-tasks/
+[2026-06-08 10:40:34,882][django.server.log_message():212] [WARNING] "GET /api/encoder_test/test-tasks/?page=1&limit=10 HTTP/1.1" 404 4331
+[2026-06-08 10:40:34,884][django.request.log_response():241] [WARNING] Not Found: /api/encoder_test/test-cases/
+[2026-06-08 10:40:34,884][django.server.log_message():212] [WARNING] "GET /api/encoder_test/test-cases/?limit=100 HTTP/1.1" 404 4321
+[2026-06-08 10:40:42,238][django.request.log_response():241] [WARNING] Not Found: /api/encoder_test/test-cases/
+[2026-06-08 10:40:42,239][django.server.log_message():212] [WARNING] "GET /api/encoder_test/test-cases/?page=1&limit=10&name=&test_type= HTTP/1.1" 404 4356
+[2026-06-08 10:41:01,843][django.server.log_message():212] [INFO] "OPTIONS /api/system/message_center/get_newest_msg/ HTTP/1.1" 200 0
+[2026-06-08 10:41:01,854][django.server.log_message():212] [INFO] "GET /api/system/message_center/get_newest_msg/ HTTP/1.1" 200 50

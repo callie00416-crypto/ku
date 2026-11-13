@@ -1,0 +1,5 @@
+# 大文件：硬件驱动/安装包（694MB，超出 GitHub 限制，不上传）
+pingtai/docs/drivers/
+
+# 嵌套 .git 的临时备份目录（推送完成后还原，勿提交）
+_nested_git_backup/

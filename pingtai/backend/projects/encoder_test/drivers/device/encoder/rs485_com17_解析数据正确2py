@@ -1,0 +1,164 @@
+import serial
+import serial.tools.list_ports
+import time
+import logging
+import sys
+import ctypes
+import re
+
+sys.path.insert(0, 'd:/test_xianwangguzhang_0423/test/test')
+from Encoder import *
+from Analyzer import *
+from CRC import *
+
+BAUD_RATE = 2500000
+COMMAND_0X64 = 0x64
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('rs485_0x64_log.txt', encoding='utf-8'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
+
+def find_com_port(com_port_name):
+    ports = serial.tools.list_ports.comports()
+    for port in ports:
+        if port.name.upper() == com_port_name.upper():
+            logger.info(f"找到端口: {port.device} - {port.description}")
+            return True, port
+    return False, None
+
+def connect_analyzer(com_port):
+    try:
+        logger.info(f"尝试连接 {com_port}...")
+        analyzer = Analyzer(com_port)
+        encoder = Encoder(analyzer)
+        logger.info(f"成功连接到 {com_port}，创建Analyzer和Encoder")
+        return encoder
+    except Exception as e:
+        logger.error(f"连接失败: {e}")
+        import traceback
+        traceback.print_exc()
+        return None
+
+def send_command_0x64(encoder):
+    try:
+        configRS485 = EncoderReadoutConfig()
+        configRS485.interface = EncoderInterfaceRS485
+        configRS485.returnType = EncoderReturnDirect
+        configRS485.baudRate = BAUD_RATE
+        configRS485.followedData.length = 0
+        configRS485.request.uart.command = COMMAND_0X64
+        configRS485.request.uart.timeoutByteNum = 20
+
+        readout = EncoderReadout()
+        readout.configIndex = 0
+        readout.times = 1
+        readout.delayTime = 10
+
+        encoder.setReadoutConfigs([configRS485])
+        encoder.setReadouts([readout])
+
+        logger.info(f"配置RS485: 接口={EncoderInterfaceRS485}, 命令=0x{COMMAND_0X64:02X}, 波特率={BAUD_RATE}")
+
+        data = encoder.startAndReceive(1, 500, timeout=1000)
+
+        return data
+    except Exception as e:
+        logger.error(f"发送指令失败: {e}")
+        import traceback
+        traceback.print_exc()
+        return None
+
+def parse_response(data):
+    if not data:
+        logger.warning("无数据可解析")
+        return None
+
+    logger.info(f"接收到原始数据: {data}")
+
+    results = []
+    for i, package in enumerate(data):
+        if isinstance(package, list):
+            package = bytes(package)
+
+        result = {
+            'packet_index': i,
+            'raw_data': list(package),
+            'raw_hex': package.hex(' ')
+        }
+
+        if len(package) >= 1:
+            result['command_response'] = package[0]
+            logger.info(f"数据包{i+1} 命令响应: 0x{package[0]:02X}")
+
+        if len(package) >= 2:
+            # 前两个字节是圈数，直接转换成10进制
+            circles = package[0] * 256 + package[1]
+            result['circles'] = circles
+            logger.info(f"数据包{i+1} 圈数: {circles}")
+
+        if len(package) >= 5:
+            # 第三到第五个字节是角度
+            angle_raw = (package[2] << 16) | (package[3] << 8) | package[4]
+            angle = angle_raw * 360 / (1 << 24)
+            result['angle_raw'] = angle_raw
+            result['angle_degrees'] = round(angle, 4)
+            logger.info(f"数据包{i+1} 角度: {angle:.4f}° (原始值: {angle_raw})")
+
+        if len(package) >= 6:
+            result['status'] = package[5]
+            logger.info(f"数据包{i+1} 状态: 0x{package[5]:02X}")
+
+        if len(package) >= 7:
+            crc_data = package[:6]
+            received_crc = package[6]
+            calculated_crc = calcCRC8(crc_data, 0, len(crc_data))
+            result['crc'] = received_crc
+            result['crc_valid'] = (received_crc == calculated_crc)
+            if received_crc == calculated_crc:
+                logger.info(f"数据包{i+1} CRC校验通过: 0x{received_crc:02X}")
+            else:
+                logger.warning(f"数据包{i+1} CRC校验失败 - 接收: 0x{received_crc:02X}, 计算: 0x{calculated_crc:02X}")
+
+        results.append(result)
+        logger.info(f"数据包{i+1} 完整数据: {result}")
+
+    return results
+
+def main():
+    logger.info("=" * 50)
+    logger.info("开始RS485通信测试，使用Encoder/Analyzer模块")
+    logger.info("=" * 50)
+
+    found, port_info = find_com_port('COM12')
+    if not found:
+        logger.error("未找到com12端口，请检查设备连接")
+        return
+
+    encoder = connect_analyzer('com12')
+    if encoder is None:
+        return
+
+    try:
+        logger.info("发送 0x64 指令...")
+        data = send_command_0x64(encoder)
+
+        if data:
+            logger.info(f"收到数据: {len(data)} 个数据包")
+            parsed = parse_response(data)
+            if parsed:
+                logger.info(f"解析完成，共 {len(parsed)} 条记录")
+        else:
+            logger.warning("未接收到有效数据")
+
+    finally:
+        encoder.stop()
+        logger.info("通信结束")
+
+if __name__ == "__main__":
+    main()

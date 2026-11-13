@@ -1,0 +1,517 @@
+"""
+SCPI设备驱动模板 - Jinja2模板
+
+【生成内容】
+- 设备驱动类
+- SCPI命令封装
+- 参数验证
+- 错误处理
+- 日志记录
+
+【架构集成】
+- 继承 BaseDevice
+- 使用 SCPIProtocol
+- 符合工业平台规范
+"""
+import sys
+import os
+from pathlib import Path
+
+project_root = Path(__file__).parent.parent.parent.parent.parent
+sys.path.insert(0, str(project_root))
+
+import logging
+from typing import Dict, Any, Optional, List
+from shared.drivers.base.base_device import BaseDevice
+from shared.drivers.protocol.scpi_protocol import SCPIProtocol
+
+
+logger = logging.getLogger(__name__)
+
+
+class {{ class_name }}(BaseDevice):
+    """{{ description }}
+    
+    【设备信息】
+    - 厂商: {{ manufacturer }}
+    - 型号: {{ model }}
+    - 序列号: {{ serial_number | default('N/A') }}
+    - 协议: {{ protocol.type | upper }}
+    - 通信: {{ communication.type | upper }}
+    - 通道数: {{ channels }}
+    
+    【架构集成】
+    - 继承 BaseDevice 基类
+    - 使用 SCPIProtocol 协议层
+    - 符合工业设备生命周期规范
+    - 支持平台事件发布
+    
+    【使用示例】
+    >>> from shared.drivers.protocol.scpi_protocol import SCPIProtocol
+    >>> from {{ module_path }} import {{ class_name }}
+    >>> 
+    >>> protocol = SCPIProtocol(driver_id='scpi', comm=comm)
+    >>> generator = {{ class_name }}(driver_id='{{ device_name }}', protocol=protocol)
+    >>> generator.connect()
+    >>> 
+    >>> # 设置波形
+    >>> generator.set_waveform('SIN', frequency=1000, amplitude=5.0, offset=0.0, channel=1)
+    >>> 
+    >>> # 打开输出
+    >>> generator.output_on(channel=1)
+    """
+    
+    def __init__(self, driver_id: str, protocol: SCPIProtocol, **kwargs):
+        """
+        Args:
+            driver_id: 驱动ID
+            protocol: SCPI协议实例
+            **kwargs: 其他参数
+        """
+        super().__init__(driver_id, protocol, **kwargs)
+        
+        # 设备信息
+        self.device_info = {
+            'manufacturer': '{{ manufacturer }}',
+            'model': '{{ model }}',
+            'serial_number': '{{ serial_number | default('N/A') }}',
+            'firmware_version': '{{ firmware_version | default('N/A') }}',
+            'protocol': '{{ protocol.type }}',
+            'communication': '{{ communication.type }}',
+            'channels': {{ channels }}
+        }
+        
+        # SCPI命令映射
+        self._device_commands = {{ scpi_config.device_commands | tojson }}
+        self._channel_commands = {{ scpi_config.channel_commands | tojson }}
+        
+        # 波形类型映射
+        self._waveforms = {{ scpi_config.waveforms | tojson }}
+        
+        # 参数范围
+        self._parameters = {{ parameters | tojson }}
+        
+        # 响应解析器
+        self._response_parser = {{ scpi_config.response_parser | tojson }}
+        
+        # 初始化命令
+        self._init_commands = {{ init_commands | tojson }}
+        
+        logger.info(f"{{ class_name }}初始化完成: {driver_id}")
+    
+    def connect(self) -> bool:
+        """连接设备
+        
+        【架构集成】
+        - 遵循工业设备生命周期规范
+        - 集成平台状态管理
+        - 执行初始化命令
+        
+        Returns:
+            是否连接成功
+        """
+        try:
+            # 连接协议层
+            if not self.protocol.connect():
+                logger.error(f"协议层连接失败: {self.driver_id}")
+                return False
+            
+            # 执行初始化命令
+            for cmd in self._init_commands:
+                try:
+                    self.protocol.send_command(cmd)
+                    logger.debug(f"执行初始化命令: {cmd}")
+                except Exception as e:
+                    logger.warning(f"初始化命令执行失败 {cmd}: {e}")
+            
+            # 获取设备ID
+            try:
+                device_id = self.protocol.get_id()
+                if device_id:
+                    logger.info(f"设备ID: {device_id}")
+                    self.device_info['device_id'] = device_id
+            except Exception as e:
+                logger.warning(f"获取设备ID失败: {e}")
+            
+            self._is_connected = True
+            logger.info(f"{{ class_name }}连接成功: {self.driver_id}")
+            
+            # 发布连接事件
+            self._publish_event('device_connected', {
+                'device_id': self.driver_id,
+                'device_info': self.device_info
+            })
+            
+            return True
+            
+        except Exception as e:
+            logger.error(f"{{ class_name }}连接失败: {e}")
+            self._is_connected = False
+            self._publish_event('device_error', {
+                'device_id': self.driver_id,
+                'error': str(e)
+            })
+            return False
+    
+    def disconnect(self):
+        """断开设备
+        
+        【架构集成】
+        - 遵循工业设备生命周期规范
+        - 关闭所有输出
+        - 释放资源
+        """
+        try:
+            # 关闭所有输出
+            for channel in range(1, self.device_info['channels'] + 1):
+                try:
+                    self.output_off(channel)
+                except Exception as e:
+                    logger.warning(f"关闭通道{channel}输出失败: {e}")
+            
+            # 断开协议层
+            self.protocol.disconnect()
+            
+            self._is_connected = False
+            logger.info(f"{{ class_name }}已断开: {self.driver_id}")
+            
+            # 发布断开事件
+            self._publish_event('device_disconnected', {
+                'device_id': self.driver_id
+            })
+            
+        except Exception as e:
+            logger.error(f"{{ class_name }}断开失败: {e}")
+    
+    {% for method in methods %}
+    def {{ method.name }}(self{% for param in method.parameters %}, {{ param.name }}: {{ param.type }}{% if param.default %} = {{ param.default }}{% endif %}{% endfor %}) -> {{ method.return_type }}:
+        """{{ method.description }}
+        
+        {% for param in method.parameters %}
+        Args:
+            {{ param.name }}: {{ param.name }}{% if param.default %} (默认: {{ param.default }}){% endif %}
+        {% endfor %}
+        
+        Returns:
+            {{ method.return_description | default('操作结果') }}
+        """
+        {% if method.name == 'set_waveform' %}
+        try:
+            # 参数验证
+            if waveform not in self._waveforms:
+                logger.error(f"不支持的波形类型: {waveform}")
+                return False
+            
+            param_range = self._parameters.get('frequency', {})
+            if not (param_range.get('min', 0) <= frequency <= param_range.get('max', float('inf'))):
+                logger.error(f"频率超出范围: {frequency}")
+                return False
+            
+            param_range = self._parameters.get('amplitude', {})
+            if not (param_range.get('min', 0) <= amplitude <= param_range.get('max', float('inf'))):
+                logger.error(f"幅度超出范围: {amplitude}")
+                return False
+            
+            param_range = self._parameters.get('offset', {})
+            if not (param_range.get('min', -float('inf')) <= offset <= param_range.get('max', float('inf'))):
+                logger.error(f"偏置超出范围: {offset}")
+                return False
+            
+            param_range = self._parameters.get('phase', {})
+            if not (param_range.get('min', 0) <= phase <= param_range.get('max', 360)):
+                logger.error(f"相位超出范围: {phase}")
+                return False
+            
+            # 设置波形
+            waveform_cmd = self._channel_commands['waveform']['set'].format(
+                channel=channel,
+                waveform=waveform
+            )
+            self.protocol.send_command(waveform_cmd)
+            
+            # 设置频率
+            freq_cmd = self._channel_commands['frequency']['set'].format(
+                channel=channel,
+                frequency=frequency
+            )
+            self.protocol.send_command(freq_cmd)
+            
+            # 设置幅度
+            amp_cmd = self._channel_commands['amplitude']['set'].format(
+                channel=channel,
+                amplitude=amplitude
+            )
+            self.protocol.send_command(amp_cmd)
+            
+            # 设置偏置
+            offset_cmd = self._channel_commands['offset']['set'].format(
+                channel=channel,
+                offset=offset
+            )
+            self.protocol.send_command(offset_cmd)
+            
+            # 设置相位
+            phase_cmd = self._channel_commands['phase']['set'].format(
+                channel=channel,
+                phase=phase
+            )
+            self.protocol.send_command(phase_cmd)
+            
+            logger.info(f"通道{channel}波形设置: {waveform}, {frequency}Hz, {amplitude}Vpp, {offset}V, {phase}°")
+            
+            # 发布成功事件
+            self._publish_event('operation_success', {
+                'device_id': self.driver_id,
+                'operation': 'set_waveform',
+                'channel': channel,
+                'waveform': waveform,
+                'frequency': frequency,
+                'amplitude': amplitude,
+                'offset': offset,
+                'phase': phase
+            })
+            
+            return True
+            
+        except Exception as e:
+            logger.error(f"设置波形失败: {e}")
+            self._publish_event('operation_failure', {
+                'device_id': self.driver_id,
+                'operation': 'set_waveform',
+                'error': str(e)
+            })
+            return False
+        
+        {% elif method.name == 'output_on' %}
+        try:
+            cmd = self._channel_commands['output']['on'].format(channel=channel)
+            self.protocol.send_command(cmd)
+            
+            logger.info(f"通道{channel}输出已打开")
+            
+            # 发布成功事件
+            self._publish_event('operation_success', {
+                'device_id': self.driver_id,
+                'operation': 'output_on',
+                'channel': channel
+            })
+            
+            return True
+            
+        except Exception as e:
+            logger.error(f"打开输出失败: {e}")
+            self._publish_event('operation_failure', {
+                'device_id': self.driver_id,
+                'operation': 'output_on',
+                'error': str(e)
+            })
+            return False
+        
+        {% elif method.name == 'output_off' %}
+        try:
+            cmd = self._channel_commands['output']['off'].format(channel=channel)
+            self.protocol.send_command(cmd)
+            
+            logger.info(f"通道{channel}输出已关闭")
+            
+            # 发布成功事件
+            self._publish_event('operation_success', {
+                'device_id': self.driver_id,
+                'operation': 'output_off',
+                'channel': channel
+            })
+            
+            return True
+            
+        except Exception as e:
+            logger.error(f"关闭输出失败: {e}")
+            self._publish_event('operation_failure', {
+                'device_id': self.driver_id,
+                'operation': 'output_off',
+                'error': str(e)
+            })
+            return False
+        
+        {% elif method.name.startswith('set_') %}
+        try:
+            param_name = method.name[4:]  # 去掉 'set_'
+            if param_name in self._channel_commands:
+                cmd = self._channel_commands[param_name]['set'].format(
+                    channel=channel,
+                    **{param_name: locals()[param_name]}
+                )
+                self.protocol.send_command(cmd)
+                
+                logger.info(f"通道{channel}{param_name}设置: {locals()[param_name]}")
+                
+                # 发布成功事件
+                self._publish_event('operation_success', {
+                    'device_id': self.driver_id,
+                    'operation': method.name,
+                    'channel': channel,
+                    param_name: locals()[param_name]
+                })
+                
+                return True
+            
+            return False
+            
+        except Exception as e:
+            logger.error(f"设置{param_name}失败: {e}")
+            self._publish_event('operation_failure', {
+                'device_id': self.driver_id,
+                'operation': method.name,
+                'error': str(e)
+            })
+            return False
+        
+        {% elif method.name.startswith('get_') %}
+        try:
+            param_name = method.name[4:]  # 去掉 'get_'
+            if param_name in self._channel_commands:
+                cmd = self._channel_commands[param_name]['get'].format(channel=channel)
+                response = self.protocol.query(cmd)
+                
+                # 解析响应
+                parser = self._response_parser.get(param_name, self._response_parser.get('default', 'strip'))
+                if parser == 'float':
+                    value = float(response)
+                elif parser == 'int':
+                    value = int(response)
+                else:
+                    value = response.strip()
+                
+                return value
+            
+            return None
+            
+        except Exception as e:
+            logger.error(f"获取{param_name}失败: {e}")
+            return None
+        
+        {% elif method.name == 'read_status' %}
+        try:
+            status = {}
+            
+            for param_name in ['waveform', 'frequency', 'amplitude', 'offset', 'phase']:
+                if param_name in self._channel_commands:
+                    cmd = self._channel_commands[param_name]['get'].format(channel=channel)
+                    response = self.protocol.query(cmd)
+                    
+                    parser = self._response_parser.get(param_name, self._response_parser.get('default', 'strip'))
+                    if parser == 'float':
+                        value = float(response)
+                    elif parser == 'int':
+                        value = int(response)
+                    else:
+                        value = response.strip()
+                    
+                    status[param_name] = value
+            
+            # 获取输出状态
+            cmd = self._channel_commands['output']['get'].format(channel=channel)
+            response = self.protocol.query(cmd)
+            status['output'] = response.strip() == 'ON'
+            
+            return status
+            
+        except Exception as e:
+            logger.error(f"读取状态失败: {e}")
+            return {}
+        
+        {% elif method.name == 'read_data' %}
+        try:
+            data = {}
+            
+            for channel in range(1, self.device_info['channels'] + 1):
+                channel_data = self.read_status(channel)
+                data[f'channel_{channel}'] = channel_data
+            
+            return data
+            
+        except Exception as e:
+            logger.error(f"读取数据失败: {e}")
+            return {}
+        
+        {% elif method.name == 'reset' %}
+        try:
+            cmd = self._device_commands.get('reset', '*RST')
+            self.protocol.send_command(cmd)
+            
+            logger.info(f"设备已重置")
+            
+            # 发布成功事件
+            self._publish_event('operation_success', {
+                'device_id': self.driver_id,
+                'operation': 'reset'
+            })
+            
+            return True
+            
+        except Exception as e:
+            logger.error(f"重置设备失败: {e}")
+            self._publish_event('operation_failure', {
+                'device_id': self.driver_id,
+                'operation': 'reset',
+                'error': str(e)
+            })
+            return False
+        
+        {% elif method.name == 'health_check' %}
+        try:
+            health = {
+                'driver_id': self.driver_id,
+                'device_type': '{{ device_name }}',
+                'is_connected': self._is_connected,
+                'device_info': self.device_info,
+                'protocol_connected': self.protocol.is_connected if self.protocol else False,
+                'error_count': self._error_count,
+                'channels': {}
+            }
+            
+            # 检查每个通道的状态
+            for channel in range(1, self.device_info['channels'] + 1):
+                try:
+                    channel_status = self.read_status(channel)
+                    health['channels'][f'channel_{channel}'] = channel_status
+                except Exception as e:
+                    health['channels'][f'channel_{channel}'] = {'error': str(e)}
+            
+            return health
+            
+        except Exception as e:
+            logger.error(f"健康检查失败: {e}")
+            return {
+                'driver_id': self.driver_id,
+                'device_type': '{{ device_name }}',
+                'is_connected': self._is_connected,
+                'error': str(e)
+            }
+        
+        {% elif method.name == 'get_device_info' %}
+        return self.device_info.copy()
+        
+        {% elif method.name == 'connect' %}
+        return self.connect()
+        
+        {% elif method.name == 'disconnect' %}
+        self.disconnect()
+        
+        {% else %}
+        pass
+        
+        {% endif %}
+    {% endfor %}
+    
+    def _publish_event(self, event_type: str, event_data: Dict[str, Any]):
+        """发布事件
+        
+        Args:
+            event_type: 事件类型
+            event_data: 事件数据
+        """
+        try:
+            # 这里可以集成平台事件总线
+            logger.debug(f"发布事件: {event_type}, 数据: {event_data}")
+        except Exception as e:
+            logger.warning(f"发布事件失败: {e}")

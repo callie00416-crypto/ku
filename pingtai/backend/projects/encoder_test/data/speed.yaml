@@ -1,0 +1,69 @@
+# ASDB2速度控制测试数据
+speed_cases:
+  # 低速测试
+  - case_id: "speed_p1_09_10_cw"
+    description: "P1-09低速测试 - 10RPM 顺时针"
+    source: "P1-09"
+    rpm: 10
+    direction: "CW"
+    tolerance: 2.0
+    settle_time: 3.0
+    
+  - case_id: "speed_p1_09_10_ccw"
+    description: "P1-09低速测试 - 10RPM 逆时针"
+    source: "P1-09"
+    rpm: 10
+    direction: "CCW"
+    tolerance: 2.0
+    settle_time: 3.0
+    
+  # 中速测试
+  - case_id: "speed_p1_10_100_cw"
+    description: "P1-10中速测试 - 100RPM 顺时针"
+    source: "P1-10"
+    rpm: 100
+    direction: "CW"
+    tolerance: 5.0
+    settle_time: 3.0
+    
+  - case_id: "speed_p1_10_100_ccw"
+    description: "P1-10中速测试 - 100RPM 逆时针"
+    source: "P1-10"
+    rpm: 100
+    direction: "CCW"
+    tolerance: 5.0
+    settle_time: 3.0
+    
+  # 高速测试
+  - case_id: "speed_p1_11_1000_cw"
+    description: "P1-11高速测试 - 1000RPM 顺时针"
+    source: "P1-11"
+    rpm: 1000
+    direction: "CW"
+    tolerance: 10.0
+    settle_time: 5.0
+    
+  - case_id: "speed_p1_11_1000_ccw"
+    description: "P1-11高速测试 - 1000RPM 逆时针"
+    source: "P1-11"
+    rpm: 1000
+    direction: "CCW"
+    tolerance: 10.0
+    settle_time: 5.0
+    
+  # 极速测试
+  - case_id: "speed_p1_11_3000_cw"
+    description: "P1-11极速测试 - 3000RPM 顺时针"
+    source: "P1-11"
+    rpm: 3000
+    direction: "CW"
+    tolerance: 30.0
+    settle_time: 5.0
+    
+  - case_id: "speed_p1_11_3000_ccw"
+    description: "P1-11极速测试 - 3000RPM 逆时针"
+    source: "P1-11"
+    rpm: 3000
+    direction: "CCW"
+    tolerance: 30.0
+    settle_time: 5.0

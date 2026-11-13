@@ -1,0 +1,31 @@
+/backend/venv
+/backend/.idea
+.idea
+
+.history/
+.vscode/
+web/package-lock.json
+
+.playwright-mcp/
+/backend/db.sqlite3-wal
+/backend/db.sqlite3-shm
+web/test-results/
+
+# Superpowers planning docs
+docs/superpowers/
+
+# New project structure additions
+frontend/node_modules/
+api/__pycache__/
+test_cases/__pycache__/
+n8n-data/workflows/
+node-red-data/flows/
+mqtt-data/
+logs/*.log
+backend/encoder_test/config/*.json
+backend/encoder_test/report/*
+backend/encoder_test/gui/*
+backend/encoder_test/tests/*
+backend/encoder_test/ci/*
+backend/encoder_test/core/asserts/*
+backend/encoder_test/core/context/*

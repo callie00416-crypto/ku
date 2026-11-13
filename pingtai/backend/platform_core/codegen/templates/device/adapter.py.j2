@@ -1,0 +1,235 @@
+"""
+设备适配器 - {{ device_name }} Adapter
+
+【职责】
+- 将项目设备转换为平台设备
+- 将平台设备转换为项目设备
+- 提供状态和类型映射
+"""
+from typing import Dict, Any, Optional
+from platform.domain.device.device import Device, DeviceConfig
+from platform.domain.common.enums import DeviceType, ProtocolType
+
+
+class {{ class_name }}Adapter:
+    """{{ device_name }} 设备适配器
+    
+    【职责】
+    - 项目设备与平台设备之间的转换
+    - 状态映射和类型转换
+    - 配置参数转换
+    """
+    
+    @staticmethod
+    def to_platform_device(
+        station_id: int,
+        device_code: str,
+        device_name: str,
+        protocol: ProtocolType = ProtocolType.{{ spec.protocol | default('MODBUS_RTU') | upper }},
+        connection_params: Optional[Dict[str, Any]] = None,
+        device_params: Optional[Dict[str, Any]] = None
+    ) -> Device:
+        """将项目设备转换为平台设备
+        
+        Args:
+            station_id: 工位ID
+            device_code: 设备编码
+            device_name: 设备名称
+            protocol: 通信协议
+            connection_params: 连接参数
+            device_params: 设备参数
+            
+        Returns:
+            平台设备实例
+        """
+        # 设置默认连接参数
+        if connection_params is None:
+            connection_params = {{ class_name }}Adapter.create_connection_params()
+        
+        # 设置默认设备参数
+        if device_params is None:
+            device_params = {{ class_name }}Adapter.create_device_params()
+        
+        # 创建设备配置
+        config = DeviceConfig(
+            protocol=protocol.value,
+            connection_params=connection_params,
+            device_params=device_params,
+            timeout=5.0,
+            retry_count=3
+        )
+        
+        # 创建平台设备
+        return Device.create(
+            station_id=station_id,
+            code=device_code,
+            name=device_name,
+            device_type=DeviceType.{{ device_name | upper }},
+            protocol=protocol,
+            config=config
+        )
+    
+    @staticmethod
+    def from_platform_device(platform_device: Device) -> Dict[str, Any]:
+        """将平台设备转换为项目设备DTO
+        
+        Args:
+            platform_device: 平台设备实例
+            
+        Returns:
+            设备DTO字典
+        """
+        return {
+            "device_id": platform_device.id,
+            "station_id": platform_device.station_id,
+            "code": platform_device.code,
+            "name": platform_device.name,
+            "device_type": platform_device.device_type.value,
+            "protocol": platform_device.protocol.value,
+            "status": platform_device.status.value,
+            "connect_status": platform_device.connect_status.value,
+            "is_connected": platform_device.is_connected,
+            "created_at": platform_device.created_at,
+            "updated_at": platform_device.updated_at,
+            "config": {
+                "protocol": platform_device.config.protocol,
+                "connection_params": platform_device.config.connection_params,
+                "device_params": platform_device.config.device_params,
+                "timeout": platform_device.config.timeout,
+                "retry_count": platform_device.config.retry_count
+            }
+        }
+    
+    @staticmethod
+    def create_connection_params(
+        {% if spec.communication == 'rs485' %}
+        port: str = 'COM3',
+        baudrate: int = 9600,
+        bytesize: int = 8,
+        parity: str = 'N',
+        stopbits: int = 1,
+        {% elif spec.communication == 'tcp' %}
+        host: str = '192.168.1.100',
+        port: int = 502,
+        {% elif spec.communication == 'can' %}
+        channel: str = 'can0',
+        bitrate: int = 500000,
+        {% endif %}
+        **kwargs
+    ) -> Dict[str, Any]:
+        """创建连接参数
+        
+        {% if spec.communication == 'rs485' %}
+        Args:
+            port: 串口号
+            baudrate: 波特率
+            bytesize: 数据位
+            parity: 校验位
+            stopbits: 停止位
+            **kwargs: 额外参数
+        {% elif spec.communication == 'tcp' %}
+        Args:
+            host: 主机地址
+            port: 端口号
+            **kwargs: 额外参数
+        {% elif spec.communication == 'can' %}
+        Args:
+            channel: CAN通道
+            bitrate: 波特率
+            **kwargs: 额外参数
+        {% endif %}
+        
+        Returns:
+            连接参数字典
+        """
+        params = {
+            {% if spec.communication == 'rs485' %}
+            'port': port,
+            'baudrate': baudrate,
+            'bytesize': bytesize,
+            'parity': parity,
+            'stopbits': stopbits,
+            {% elif spec.communication == 'tcp' %}
+            'host': host,
+            'port': port,
+            {% elif spec.communication == 'can' %}
+            'channel': channel,
+            'bitrate': bitrate,
+            {% endif %}
+            **kwargs
+        }
+        
+        return params
+    
+    @staticmethod
+    def create_device_params(
+        {% if spec.device_params %}
+        {% for param_name, param_value in spec.device_params.items() %}
+        {{ param_name }}: {{ param_value | default('Any') }} = {{ param_value }},
+        {% endfor %}
+        {% endif %}
+        **kwargs
+    ) -> Dict[str, Any]:
+        """创建设备参数
+        
+        {% if spec.device_params %}
+        {% for param_name, param_value in spec.device_params.items() %}
+        Args:
+            {{ param_name }}: {{ param_name }} 参数
+        {% endfor %}
+        {% endif %}
+        **kwargs: 额外参数
+        
+        Returns:
+            设备参数字典
+        """
+        params = {
+            {% if spec.device_params %}
+            {% for param_name, param_value in spec.device_params.items() %}
+            '{{ param_name }}': {{ param_name }},
+            {% endfor %}
+            {% endif %}
+            **kwargs
+        }
+        
+        return params
+    
+    @staticmethod
+    def map_device_status(status: str) -> str:
+        """映射设备状态
+        
+        Args:
+            status: 原始状态
+            
+        Returns:
+            映射后的状态
+        """
+        status_mapping = {
+            'connected': 'connected',
+            'disconnected': 'disconnected',
+            'error': 'fault',
+            'fault': 'fault',
+            'ready': 'ready',
+            'running': 'running'
+        }
+        
+        return status_mapping.get(status.lower(), 'unknown')
+    
+    @staticmethod
+    def map_device_type(device_type: str) -> DeviceType:
+        """映射设备类型
+        
+        Args:
+            device_type: 原始设备类型
+            
+        Returns:
+            设备类型枚举
+        """
+        type_mapping = {
+            '{{ device_name }}': DeviceType.{{ device_name | upper }},
+            'sensor': DeviceType.SENSOR,
+            'actuator': DeviceType.ACTUATOR,
+            'controller': DeviceType.CONTROLLER
+        }
+        
+        return type_mapping.get(device_type.lower(), DeviceType.UNKNOWN)

@@ -1,0 +1,210 @@
+"""
+{{ device_name }} 设备单元测试
+
+【测试说明】
+测试 {{ device_name }} 设备的基本功能
+"""
+import pytest
+from unittest.mock import Mock, MagicMock, patch
+from projects.encoder_test.drivers.device.{{ device_name }}.{{ device_name }} import {{ class_name }}
+from platform.domain.common.enums import ProtocolType
+
+
+class Test{{ class_name }}:
+    """{{ class_name }} 单元测试类"""
+    
+    @pytest.fixture
+    def mock_protocol(self):
+        """模拟协议实例"""
+        protocol = Mock()
+        protocol.is_connected = False
+        protocol.connect = Mock(return_value=True)
+        protocol.disconnect = Mock()
+        protocol.read_register = Mock(return_value=0)
+        protocol.write_register = Mock()
+        return protocol
+    
+    @pytest.fixture
+    def mock_platform_device(self):
+        """模拟平台设备实例"""
+        platform_device = Mock()
+        platform_device.connect = Mock()
+        platform_device.disconnect = Mock()
+        platform_device.record_operation = Mock()
+        return platform_device
+    
+    @pytest.fixture
+    def device(self, mock_protocol, mock_platform_device):
+        """创建设备实例"""
+        return {{ class_name }}(
+            driver_id='{{ device_name }}_test',
+            protocol=mock_protocol,
+            platform_device=mock_platform_device
+        )
+    
+    def test_device_initialization(self, device):
+        """测试设备初始化"""
+        assert device.driver_id == '{{ device_name }}_test'
+        assert device.protocol is not None
+        assert device.platform_device is not None
+        assert not device.is_connected
+    
+    def test_connect_success(self, device, mock_protocol):
+        """测试成功连接"""
+        mock_protocol.connect.return_value = True
+        
+        result = device.connect()
+        
+        assert result is True
+        assert device.is_connected
+        mock_protocol.connect.assert_called_once()
+        device.platform_device.connect.assert_called_once()
+    
+    def test_connect_failure(self, device, mock_protocol):
+        """测试连接失败"""
+        mock_protocol.connect.return_value = False
+        
+        result = device.connect()
+        
+        assert result is False
+        assert not device.is_connected
+        device.platform_device.disconnect.assert_called_once()
+    
+    def test_disconnect(self, device, mock_protocol):
+        """测试断开连接"""
+        device._is_connected = True
+        device.disconnect()
+        
+        assert not device.is_connected
+        mock_protocol.disconnect.assert_called_once()
+        device.platform_device.disconnect.assert_called_once()
+    
+    def test_read_data_when_connected(self, device, mock_protocol):
+        """测试连接时读取数据"""
+        device._is_connected = True
+        mock_protocol.read_register.return_value = 100
+        
+        data = device.read_data()
+        
+        assert isinstance(data, dict)
+        device.platform_device.record_operation.assert_called_with(success=True)
+    
+    def test_read_data_when_disconnected(self, device):
+        """测试断开时读取数据"""
+        with pytest.raises(ConnectionError, match="设备未连接"):
+            device.read_data()
+    
+    def test_write_data_when_connected(self, device, mock_protocol):
+        """测试连接时写入数据"""
+        device._is_connected = True
+        test_data = {'test_param': 100}
+        
+        result = device.write_data(test_data)
+        
+        assert result is True
+        device.platform_device.record_operation.assert_called_with(success=True)
+    
+    def test_write_data_when_disconnected(self, device):
+        """测试断开时写入数据"""
+        with pytest.raises(ConnectionError, match="设备未连接"):
+            device.write_data({})
+    
+    def test_health_check_when_connected(self, device):
+        """测试连接时健康检查"""
+        device._is_connected = True
+        device._device_status = "connected"
+        
+        health = device.health_check()
+        
+        assert health['health_status'] == 'healthy'
+        assert health['is_connected'] is True
+        assert 'device_status' in health
+    
+    def test_health_check_when_disconnected(self, device):
+        """测试断开时健康检查"""
+        device._is_connected = False
+        
+        health = device.health_check()
+        
+        assert health['health_status'] == 'disconnected'
+        assert health['is_connected'] is False
+    
+    def test_reset_when_connected(self, device):
+        """测试连接时重置设备"""
+        device._is_connected = True
+        
+        device.reset()
+        
+        # 验证重置逻辑
+        assert True  # 如果没有异常则通过
+    
+    def test_reset_when_disconnected(self, device):
+        """测试断开时重置设备"""
+        with pytest.raises(ConnectionError, match="设备未连接"):
+            device.reset()
+    
+    {% if spec.registers %}
+    def test_read_register(self, device, mock_protocol):
+        """测试读取寄存器"""
+        device._is_connected = True
+        mock_protocol.read_register.return_value = 42
+        
+        value = device._read_register('test_register')
+        
+        assert value == 42
+        mock_protocol.read_register.assert_called_once()
+    
+    def test_write_register(self, device, mock_protocol):
+        """测试写入寄存器"""
+        device._is_connected = True
+        
+        device._write_register('test_register', 100)
+        
+        mock_protocol.write_register.assert_called_once()
+    
+    def test_read_unknown_register(self, device):
+        """测试读取未知寄存器"""
+        device._is_connected = True
+        
+        with pytest.raises(ValueError, match="未知寄存器"):
+            device._read_register('unknown_register')
+    {% endif %}
+    
+    def test_error_handling(self, device, mock_protocol):
+        """测试错误处理"""
+        device._is_connected = True
+        mock_protocol.read_register.side_effect = Exception("通信错误")
+        
+        with pytest.raises(Exception):
+            device.read_data()
+        
+        device.platform_device.record_operation.assert_called_with(success=False)
+    
+    def test_device_info(self, device):
+        """测试设备信息"""
+        info = device._device_info
+        
+        assert 'manufacturer' in info
+        assert 'model' in info
+        assert 'protocol' in info
+        assert 'communication' in info
+
+
+class Test{{ class_name }}Integration:
+    """{{ class_name }} 集成测试类"""
+    
+    @pytest.fixture
+    def real_device(self):
+        """创建真实设备实例（需要实际硬件）"""
+        # 这个测试需要实际硬件连接
+        # 在CI/CD环境中应该跳过
+        pytest.skip("需要实际硬件连接")
+    
+    def test_real_device_connection(self, real_device):
+        """测试真实设备连接"""
+        # 真实设备连接测试
+        pass
+
+
+if __name__ == '__main__':
+    pytest.main([__file__, '-v'])

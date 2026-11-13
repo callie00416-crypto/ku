@@ -1,0 +1,787 @@
+"""
+设备生成模板 - Device Template (增强版)
+
+【经验教训】
+基于电源设备测试经验，增强模板功能：
+1. 支持多通道/多路设备
+2. 支持复杂数据格式（IEEE 754、32位整数等）
+3. 支持单位转换和字节序
+4. 支持自定义控制逻辑映射
+5. 支持协议API兼容性处理
+6. 支持寄存器地址偏移和通道映射
+"""
+from shared.drivers.base.base_device import BaseDevice
+from typing import Dict, Any, Optional, List
+import logging
+import struct
+
+logger = logging.getLogger(__name__)
+
+
+class {{ class_name }}(BaseDevice):
+    """{{ spec.description | default(device_name + ' 设备驱动') }}
+    
+    【设备信息】
+    - 制造商: {{ spec.manufacturer | default('Unknown') }}
+    - 型号: {{ spec.model | default('Unknown') }}
+    - 通信协议: {{ spec.protocol | default('unknown') }}
+    - 通信方式: {{ spec.communication | default('unknown') }}
+    - 通道数: {{ spec.channels | default(1) }}
+    
+    【架构集成】
+    - 继承 BaseDevice 基类
+    - 支持平台设备生命周期管理
+    - 集成平台事件系统
+    - 符合工业设备规范
+    """
+    
+    # 设备配置
+    {% if spec.device_config %}
+    DEVICE_CONFIG = {{ spec.device_config | default({}) }}
+    {% else %}
+    DEVICE_CONFIG = {
+        'channels': {{ spec.channels | default(1) }},
+        'address_offset': {{ spec.address_offset | default(0) }},
+        'byte_order': '{{ spec.byte_order | default('big') }}',
+        'data_format': '{{ spec.data_format | default('uint32') }}'
+    }
+    {% endif %}
+    
+    # 寄存器地址映射（支持多通道）
+    {% if spec.register_map %}
+    REGISTER_MAP = {{ spec.register_map | default({}) }}
+    {% else %}
+    REGISTER_MAP = {
+        {% if spec.registers %}
+        {% for register_name, register_value in spec.registers.items() %}
+        '{{ register_name }}': {{ register_value }},
+        {% endfor %}
+        {% endif %}
+    }
+    {% endif %}
+    
+    # 通道寄存器映射
+    {% if spec.channel_registers %}
+    CHANNEL_REGISTERS = {
+        {% for channel, registers in spec.channel_registers.items() %}
+        {{ channel }}: {
+            {% for reg_name, reg_addr in registers.items() %}
+            '{{ reg_name }}': {{ reg_addr }},
+            {% endfor %}
+        },
+        {% endfor %}
+    }
+    {% else %}
+    CHANNEL_REGISTERS = {}
+    {% endif %}
+    
+    # 数据格式配置
+    {% if spec.data_formats %}
+    DATA_FORMATS = {
+        {% for format_name, format_config in spec.data_formats.items() %}
+        '{{ format_name }}': {
+            {% for key, value in format_config.items() %}
+            '{{ key }}': {{ value }},
+            {% endfor %}
+        },
+        {% endfor %}
+    }
+    {% else %}
+    DATA_FORMATS = {}
+    {% endif %}
+    
+    # 控制逻辑映射
+    {% if spec.control_logic %}
+    CONTROL_LOGIC = {
+        {% for logic_name, logic_config in spec.control_logic.items() %}
+        '{{ logic_name }}': {
+            {% for key, value in logic_config.items() %}
+            '{{ key }}': {{ value }},
+            {% endfor %}
+        },
+        {% endfor %}
+    }
+    {% else %}
+    CONTROL_LOGIC = {}
+    {% endif %}
+    
+    def __init__(self, driver_id: str = '{{ device_name }}', protocol=None, 
+                 platform_device=None, **kwargs):
+        """
+        Args:
+            driver_id: 驱动ID
+            protocol: 通信协议实例
+            platform_device: 平台设备实例
+            **kwargs: 额外参数
+        """
+        super().__init__(driver_id, protocol, **kwargs)
+        self.protocol = protocol
+        self.platform_device = platform_device
+        
+        # 设备特定状态
+        self._channel_states = {}
+        for channel in range(1, self.DEVICE_CONFIG.get('channels', 1) + 1):
+            self._channel_states[channel] = {}
+        
+        # 设备信息
+        self._device_info = {
+            'manufacturer': '{{ spec.manufacturer | default('Unknown') }}',
+            'model': '{{ spec.model | default('Unknown') }}',
+            'protocol': '{{ spec.protocol | default('unknown') }}',
+            'communication': '{{ spec.communication | default('unknown') }}',
+            'channels': self.DEVICE_CONFIG.get('channels', 1)
+        }
+        
+        # 设备参数
+        {% if spec.parameters %}
+        self._device_params = {
+            {% for param_name, param_value in spec.parameters.items() %}
+            '{{ param_name }}': {{ param_value }},
+            {% endfor %}
+        }
+        {% else %}
+        self._device_params = {}
+        {% endif %}
+    
+    def connect(self) -> bool:
+        """连接设备
+        
+        【经验教训】
+        - 不依赖协议层的连接状态检查
+        - 直接调用协议连接方法
+        - 支持设备初始化命令
+        
+        Returns:
+            是否连接成功
+        """
+        try:
+            self._device_status = "connecting"
+            
+            # 直接连接协议层（不检查状态）
+            if not self.protocol.connect():
+                self._device_status = "fault"
+                if self.platform_device:
+                    self.platform_device.disconnect()
+                return False
+            
+            # 设备初始化
+            self._initialize_device()
+            
+            self._is_connected = True
+            self._device_status = "connected"
+            
+            # 更新平台设备状态
+            if self.platform_device:
+                self.platform_device.connect()
+            
+            logger.info(f"设备连接成功: {self.driver_id}")
+            return True
+            
+        except Exception as e:
+            logger.error(f"设备连接失败: {e}")
+            self._device_status = "fault"
+            self.increment_error()
+            
+            if self.platform_device:
+                self.platform_device.disconnect()
+            
+            return False
+    
+    def disconnect(self):
+        """断开设备连接
+        
+        【经验教训】
+        - 关闭所有通道输出
+        - 退出远程模式
+        - 正确清理资源
+        """
+        self._is_connected = False
+        self._device_status = "disconnected"
+        
+        # 关闭所有通道
+        for channel in self._channel_states.keys():
+            try:
+                self._shutdown_channel(channel)
+            except Exception as e:
+                logger.warning(f"关闭通道{channel}失败: {e}")
+        
+        # 断开协议层
+        if self.protocol:
+            self.protocol.disconnect()
+        
+        # 更新平台设备状态
+        if self.platform_device:
+            self.platform_device.disconnect()
+        
+        logger.info(f"设备已断开: {self.driver_id}")
+    
+    def read_data(self) -> Dict[str, Any]:
+        """读取设备数据
+        
+        【经验教训】
+        - 支持多通道数据读取
+        - 支持复杂数据格式转换
+        - 支持单位转换
+        
+        Returns:
+            设备数据字典
+        """
+        if not self.is_connected:
+            raise ConnectionError("设备未连接")
+        
+        try:
+            data = {}
+            
+            # 读取各通道数据
+            for channel in self._channel_states.keys():
+                channel_data = self._read_channel_data(channel)
+                data[f'channel_{channel}'] = channel_data
+            
+            # 记录操作
+            if self.platform_device:
+                self.platform_device.record_operation(success=True)
+            
+            return data
+            
+        except Exception as e:
+            logger.error(f"读取数据失败: {e}")
+            if self.platform_device:
+                self.platform_device.record_operation(success=False)
+            raise
+    
+    def write_data(self, data: Dict[str, Any]) -> bool:
+        """写入设备数据
+        
+        【经验教训】
+        - 支持多通道数据写入
+        - 支持数据格式转换
+        - 支持控制逻辑映射
+        
+        Args:
+            data: 要写入的数据
+            
+        Returns:
+            是否写入成功
+        """
+        if not self.is_connected:
+            raise ConnectionError("设备未连接")
+        
+        try:
+            # 写入各通道数据
+            for channel in self._channel_states.keys():
+                channel_key = f'channel_{channel}'
+                if channel_key in data:
+                    self._write_channel_data(channel, data[channel_key])
+            
+            # 记录操作
+            if self.platform_device:
+                self.platform_device.record_operation(success=True)
+            
+            return True
+            
+        except Exception as e:
+            logger.error(f"写入数据失败: {e}")
+            if self.platform_device:
+                self.platform_device.record_operation(success=False)
+            return False
+    
+    def reset(self):
+        """重置设备
+        
+        【经验教训】
+        - 关闭所有输出
+        - 重置状态
+        - 重新连接
+        """
+        logger.info(f"设备重置: {self.driver_id}")
+        
+        # 关闭所有通道
+        for channel in self._channel_states.keys():
+            try:
+                self._shutdown_channel(channel)
+            except Exception as e:
+                logger.warning(f"关闭通道{channel}失败: {e}")
+        
+        # 重置状态
+        self._channel_states = {}
+        for channel in range(1, self.DEVICE_CONFIG.get('channels', 1) + 1):
+            self._channel_states[channel] = {}
+        
+        # 重置错误计数
+        self.reset_error()
+        
+        # 重新连接
+        self.disconnect()
+        import time
+        time.sleep(1.0)
+        self.connect()
+        
+        logger.info(f"设备重置完成: {self.driver_id}")
+    
+    def health_check(self) -> Dict[str, Any]:
+        """设备健康检查
+        
+        【经验教训】
+        - 检查连接状态
+        - 检查各通道状态
+        - 提供详细诊断信息
+        
+        Returns:
+            健康状态信息
+        """
+        base = super().health_check()
+        
+        try:
+            if self.is_connected:
+                # 获取各通道状态
+                channel_statuses = {}
+                for channel in self._channel_states.keys():
+                    channel_statuses[channel] = self._get_channel_status(channel)
+                
+                base.update({
+                    'device_status': 'healthy',
+                    'device_info': self._device_info,
+                    'device_params': self._device_params,
+                    'channel_states': self._channel_states,
+                    'channel_statuses': channel_statuses
+                })
+            else:
+                base.update({
+                    'device_status': 'disconnected',
+                    'device_info': self._device_info,
+                    'device_params': self._device_params
+                })
+        except Exception as e:
+            base['health_status'] = 'error'
+            base['error_message'] = str(e)
+        
+        return base
+    
+    def _initialize_device(self):
+        """初始化设备
+        
+        【经验教训】
+        - 支持自定义初始化命令
+        - 支持远程模式设置
+        - 支持设备参数配置
+        """
+        try:
+            {% if spec.init_commands %}
+            # 发送初始化命令
+            {% for command in spec.init_commands %}
+            self._send_command('{{ command }}')
+            {% endfor %}
+            {% endif %}
+            
+            {% if spec.remote_mode_register %}
+            # 设置远程模式
+            self._write_register('{{ spec.remote_mode_register }}', 1)
+            import time
+            time.sleep(0.3)
+            {% endif %}
+            
+            logger.debug(f"设备初始化完成: {self.driver_id}")
+            
+        except Exception as e:
+            logger.error(f"设备初始化失败: {e}")
+            raise
+    
+    def _read_channel_data(self, channel: int) -> Dict[str, Any]:
+        """读取通道数据
+        
+        【经验教训】
+        - 支持复杂数据格式转换
+        - 支持单位转换
+        - 支持字节序处理
+        
+        Args:
+            channel: 通道号
+            
+        Returns:
+            通道数据字典
+        """
+        data = {}
+        
+        if channel not in self.CHANNEL_REGISTERS:
+            return data
+        
+        registers = self.CHANNEL_REGISTERS[channel]
+        
+        # 读取各寄存器数据
+        for reg_name, reg_config in registers.items():
+            if isinstance(reg_config, dict):
+                address = reg_config.get('address')
+                data_format = reg_config.get('format', 'uint32')
+                unit = reg_config.get('unit', '')
+                scale = reg_config.get('scale', 1.0)
+            else:
+                address = reg_config
+                data_format = 'uint32'
+                unit = ''
+                scale = 1.0
+            
+            if address is not None:
+                value = self._read_formatted_value(address, data_format, scale)
+                data[reg_name] = value
+        
+        return data
+    
+    def _write_channel_data(self, channel: int, data: Dict[str, Any]):
+        """写入通道数据
+        
+        【经验教训】
+        - 支持数据格式转换
+        - 支持控制逻辑映射
+        - 支持单位转换
+        
+        Args:
+            channel: 通道号
+            data: 要写入的数据
+        """
+        if channel not in self.CHANNEL_REGISTERS:
+            return
+        
+        registers = self.CHANNEL_REGISTERS[channel]
+        
+        # 写入各寄存器数据
+        for reg_name, reg_config in registers.items():
+            if reg_name in data:
+                if isinstance(reg_config, dict):
+                    address = reg_config.get('address')
+                    data_format = reg_config.get('format', 'uint32')
+                    unit = reg_config.get('unit', '')
+                    scale = reg_config.get('scale', 1.0)
+                else:
+                    address = reg_config
+                    data_format = 'uint32'
+                    unit = ''
+                    scale = 1.0
+                
+                if address is not None:
+                    value = data[reg_name]
+                    self._write_formatted_value(address, value, data_format, scale)
+    
+    def _get_channel_status(self, channel: int) -> Dict[str, Any]:
+        """获取通道状态
+        
+        Args:
+            channel: 通道号
+            
+        Returns:
+            通道状态字典
+        """
+        status = {
+            'channel': channel,
+            'connected': self.is_connected
+        }
+        
+        if channel in self._channel_states:
+            status.update(self._channel_states[channel])
+        
+        return status
+    
+    def _shutdown_channel(self, channel: int):
+        """关闭通道
+        
+        【经验教训】
+        - 支持自定义关闭逻辑
+        - 支持控制逻辑映射
+        
+        Args:
+            channel: 通道号
+        """
+        if channel not in self.CHANNEL_REGISTERS:
+            return
+        
+        registers = self.CHANNEL_REGISTERS[channel]
+        
+        # 查找输出控制寄存器
+        for reg_name, reg_config in registers.items():
+            if 'output' in reg_name.lower() or 'enable' in reg_name.lower():
+                if isinstance(reg_config, dict):
+                    address = reg_config.get('address')
+                    control_logic = reg_config.get('control_logic', {})
+                else:
+                    address = reg_config
+                    control_logic = {}
+                
+                if address is not None:
+                    # 应用控制逻辑映射
+                    off_value = control_logic.get('off', 0)
+                    self._write_register(address, off_value)
+    
+    def _read_formatted_value(self, address: int, data_format: str, scale: float = 1.0) -> Any:
+        """读取格式化值
+        
+        【经验教训】
+        - 支持多种数据格式
+        - 支持单位转换
+        - 支持字节序处理
+        
+        Args:
+            address: 寄存器地址
+            data_format: 数据格式
+            scale: 缩放因子
+            
+        Returns:
+            格式化后的值
+        """
+        try:
+            if data_format == 'uint32':
+                # 读取32位整数
+                value = self._read_uint32(address)
+                return value * scale
+            elif data_format == 'int32':
+                # 读取32位有符号整数
+                value = self._read_int32(address)
+                return value * scale
+            elif data_format == 'float32':
+                # 读取IEEE 754浮点数
+                value = self._read_float32(address)
+                return value * scale
+            elif data_format == 'uint16':
+                # 读取16位整数
+                value = self.protocol.read_register(address)
+                return value * scale if value else 0
+            else:
+                # 默认格式
+                value = self.protocol.read_register(address)
+                return value * scale if value else 0
+        except Exception as e:
+            logger.error(f"读取格式化值失败: {e}")
+            return 0
+    
+    def _write_formatted_value(self, address: int, value: Any, data_format: str, scale: float = 1.0):
+        """写入格式化值
+        
+        【经验教训】
+        - 支持多种数据格式
+        - 支持单位转换
+        - 支持字节序处理
+        
+        Args:
+            address: 寄存器地址
+            value: 要写入的值
+            data_format: 数据格式
+            scale: 缩放因子
+        """
+        try:
+            scaled_value = value / scale
+            
+            if data_format == 'uint32':
+                # 写入32位整数
+                self._write_uint32(address, int(scaled_value))
+            elif data_format == 'int32':
+                # 写入32位有符号整数
+                self._write_int32(address, int(scaled_value))
+            elif data_format == 'float32':
+                # 写入IEEE 754浮点数
+                self._write_float32(address, float(scaled_value))
+            elif data_format == 'uint16':
+                # 写入16位整数
+                self.protocol.write_register(address, int(scaled_value))
+            else:
+                # 默认格式
+                self.protocol.write_register(address, int(scaled_value))
+        except Exception as e:
+            logger.error(f"写入格式化值失败: {e}")
+            raise
+    
+    def _read_uint32(self, address: int) -> int:
+        """读取32位无符号整数
+        
+        【经验教训】
+        - 支持大端序/小端序
+        - 支持地址偏移
+        
+        Args:
+            address: 寄存器地址
+            
+        Returns:
+            32位无符号整数
+        """
+        offset = self.DEVICE_CONFIG.get('address_offset', 0)
+        actual_address = address + offset
+        
+        byte_order = self.DEVICE_CONFIG.get('byte_order', 'big')
+        registers = self.protocol.read_registers(actual_address, count=2)
+        
+        if not registers or len(registers) < 2:
+            return 0
+        
+        if byte_order == 'big':
+            # 大端序
+            return (registers[0] << 16) | registers[1]
+        else:
+            # 小端序
+            return (registers[1] << 16) | registers[0]
+    
+    def _write_uint32(self, address: int, value: int):
+        """写入32位无符号整数
+        
+        【经验教训】
+        - 支持大端序/小端序
+        - 支持地址偏移
+        
+        Args:
+            address: 寄存器地址
+            value: 要写入的值
+        """
+        offset = self.DEVICE_CONFIG.get('address_offset', 0)
+        actual_address = address + offset
+        
+        byte_order = self.DEVICE_CONFIG.get('byte_order', 'big')
+        
+        if byte_order == 'big':
+            # 大端序
+            high_word = (value >> 16) & 0xFFFF
+            low_word = value & 0xFFFF
+        else:
+            # 小端序
+            low_word = (value >> 16) & 0xFFFF
+            high_word = value & 0xFFFF
+        
+        self.protocol.write_registers(actual_address, [high_word, low_word])
+    
+    def _read_int32(self, address: int) -> int:
+        """读取32位有符号整数
+        
+        Args:
+            address: 寄存器地址
+            
+        Returns:
+            32位有符号整数
+        """
+        value = self._read_uint32(address)
+        # 转换为有符号整数
+        if value >= 0x80000000:
+            value -= 0x100000000
+        return value
+    
+    def _write_int32(self, address: int, value: int):
+        """写入32位有符号整数
+        
+        Args:
+            address: 寄存器地址
+            value: 要写入的值
+        """
+        # 转换为无符号整数
+        if value < 0:
+            value += 0x100000000
+        self._write_uint32(address, value)
+    
+    def _read_float32(self, address: int) -> float:
+        """读取IEEE 754浮点数
+        
+        【经验教训】
+        - 支持大端序/小端序
+        - 支持地址偏移
+        
+        Args:
+            address: 寄存器地址
+            
+        Returns:
+            IEEE 754浮点数
+        """
+        offset = self.DEVICE_CONFIG.get('address_offset', 0)
+        actual_address = address + offset
+        
+        byte_order = self.DEVICE_CONFIG.get('byte_order', 'big')
+        registers = self.protocol.read_registers(actual_address, count=2)
+        
+        if not registers or len(registers) < 2:
+            return 0.0
+        
+        if byte_order == 'big':
+            # 大端序
+            ieee754_bytes = struct.pack('>HH', registers[0], registers[1])
+        else:
+            # 小端序
+            ieee754_bytes = struct.pack('<HH', registers[0], registers[1])
+        
+        return struct.unpack('>f', ieee754_bytes)[0]
+    
+    def _write_float32(self, address: int, value: float):
+        """写入IEEE 754浮点数
+        
+        【经验教训】
+        - 支持大端序/小端序
+        - 支持地址偏移
+        
+        Args:
+            address: 寄存器地址
+            value: 要写入的值
+        """
+        offset = self.DEVICE_CONFIG.get('address_offset', 0)
+        actual_address = address + offset
+        
+        byte_order = self.DEVICE_CONFIG.get('byte_order', 'big')
+        
+        # 转换为IEEE 754格式
+        ieee754_bytes = struct.pack('>f', value)
+        
+        if byte_order == 'big':
+            # 大端序
+            high_word = struct.unpack('>H', ieee754_bytes[0:2])[0]
+            low_word = struct.unpack('>H', ieee754_bytes[2:4])[0]
+        else:
+            # 小端序
+            low_word = struct.unpack('>H', ieee754_bytes[0:2])[0]
+            high_word = struct.unpack('>H', ieee754_bytes[2:4])[0]
+        
+        self.protocol.write_registers(actual_address, [high_word, low_word])
+    
+    def _read_register(self, register_name: str) -> Any:
+        """读取寄存器
+        
+        Args:
+            register_name: 寄存器名称
+            
+        Returns:
+            寄存器值
+        """
+        if register_name not in self.REGISTER_MAP:
+            raise ValueError(f"未知寄存器: {register_name}")
+        
+        address = self.REGISTER_MAP[register_name]
+        return self.protocol.read_register(address)
+    
+    def _write_register(self, register_name: str, value: Any):
+        """写入寄存器
+        
+        Args:
+            register_name: 寄存器名称
+            value: 要写入的值
+        """
+        if register_name not in self.REGISTER_MAP:
+            raise ValueError(f"未知寄存器: {register_name}")
+        
+        address = self.REGISTER_MAP[register_name]
+        self.protocol.write_register(address, value)
+    
+    def _send_command(self, command: str):
+        """发送命令
+        
+        Args:
+            command: 命令字符串
+        """
+        if hasattr(self.protocol, 'send_command'):
+            self.protocol.send_command(command)
+        else:
+            logger.warning(f"协议不支持发送命令: {command}")
+    
+    {% for method in spec.methods | default([]) %}
+    def {{ method.name }}(self{% for param in method.parameters | default([]) %}, {{ param.name }}: {{ param.type | default('Any') }}{% if param.default %} = {{ param.default }}{% endif %}{% endfor %}) -> {{ method.return_type | default('Any') }}:
+        """{{ method.description | default('Generated method') }}
+        
+        {% for param in method.parameters | default([]) %}
+        Args:
+            {{ param.name }}: {{ param.description | default('Parameter') }}
+        {% endfor %}
+        
+        Returns:
+            {{ method.return_description | default('Result') }}
+        """
+        # TODO: 实现 {{ method.name }} 方法
+        pass
+    {% endfor %}
